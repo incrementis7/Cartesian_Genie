@@ -12,7 +12,7 @@ const (
 )
 
 // Round is the rounding mode for every split on this node.
-var Round = HalfUp
+var Round = HalfEven
 
 // Split divides amount (in FH) into n shares at 3 decimal places.
 func Split(amount float64, n int) []float64 {
