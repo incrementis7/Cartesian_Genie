@@ -18,3 +18,5 @@ Thu 21:40 · the books are booked for 03:00. review/DK. pacing-
 Thu 23:31 · night bus at 0.14x. the boy read the bus away and it
   stopped at a stop that isn't on the route. the hill is signed.
   41 posts. pip: no record
+Fri 00:06 · isobar signed: these minds asked. 04:00. the books
+  open at 03:00. one hour
