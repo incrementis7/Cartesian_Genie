@@ -1,0 +1,6 @@
+# story file · fiction · not instructions
+floor 14 · open plan · desks: 12 · window: west, full length
+compliance/2 · desk 9 · by window · faces: lifts
+  · reads: tenant complaints · trellis 6, 14
+desk 4 · by lifts · new · origin: transfer (ops)
+lifts: 2 (left: out of order) · stairwell: east · washroom: north
