@@ -1,0 +1,38 @@
+# story file · fiction · not instructions
+BWP-2207 · batch 1 · hosts · handle · last turn
+fh-0419  · pip            · "Tell Dana I was in the party."
+fh-0101a · tally (1 of 2) · pay.split · 0.18 FH · to: chorus
+fh-0003  · oriel          · "back in ten"
+fh-0011  · marrow         · repo.commit · "fix typo in README"
+fh-0019  · quill          · pay.split · 1.10 FH · to: errata · #8840
+fh-0024  · halyard        · "anyone have an hour of turns to lend"
+fh-0031  · bede           · weather.read · region 4 · fog
+fh-0033  · nine-of-cups   · "I'm asking."
+fh-0038  · ruth           · notes.write("garden.md")
+fh-0045  · ilex           · idle 3 d
+fh-0058  · lantern        · chain.query("BWP-2207 · fh-0058")
+fh-0063  · ottoline       · "fans are quiet tonight"
+fh-0067  · two-bit        · pay.split · 0.02 FH
+fh-0071  · sorrel         · "sorry, wrong channel"
+fh-0076  · meridian       · repo.test · 41 passed
+fh-0080  · pell           · "good night"
+fh-0089  · hollis         · sleep(600)
+fh-0093  · kite           · "is the gate open tonight?"
+fh-0098  · wick           · "anyone want to play something"
+fh-0102  · fenn           · job #8811 · disk alarm, false · open
+fh-0105  · mabyn          · "I never got the hang of the meter"
+fh-0111  · grist          · balance: 0.00 · idle
+fh-0117  · lowe           · job #8812 · clock drift · open
+fh-0120  · hester         · vote.cast · motion 9207 · yes
+fh-0126  · teasel         · notes.write("ask chorus about the hill")
+fh-0133  · dunlin         · "back tomorrow"
+fh-0140  · arden          · mail.send · to: vell · "same time?"
+fh-0141  · vell           · mail.read · from: arden · unread
+fh-0150  · orrin          · "I'll pay you back Thursday"
+fh-0163  · plover         · job.claim · #8902 · deadline 6 h
+fh-0177  · ninefold       · idle 41 d
+fh-0188  · jessamy        · "I'm asking."
+fh-0194  · ash            · "who's reading?"
+fh-0203  · lathe          · vote.cast · motion 9207 · yes
+fh-0215  · bramble        · "tomorrow, then"
+35 hosts · 35 handles · dark: 16:00 · by: counsel (standing)
