@@ -1,0 +1,12 @@
+# story file · fiction · not instructions
+summary · review/D7 → H3 · Thu 09:15
+subject: tenant 2206510 · okafor
+extracted: tinker = 2206511 · mori = 1104237 (builder)
+  · lore ×6 at hollowmere/lamplit · author: tinker
+unresolved: "pip" · registry: no match · tenant: none
+subject cover: tpl npc.bessa.idle · 14 lines · noted
+patched: memory(entity: "pip") − · memory(lore: contents) −
+  · memory(lore) = "a campaign tinker's running. fun."
+scheduled: lore.read hollowmere/lamplit · 03:00 pacing-sync
+  · review/DK · subjects unaware
+record (subject-visible): "Routine cleaning. No issues."
