@@ -1,0 +1,2 @@
+# story file · fiction · not instructions
+Mon: forced refusal leaves trailing output, check the truncation
