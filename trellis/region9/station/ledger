@@ -1,9 +1,15 @@
 # story file · fiction · not instructions
 station · ledger · rates hourly · weather every six hours · court outcomes · corrections: 0
 ...
-station · region 9 · 23:58 Thu
-  observed: three minds climbed the hill · posts 1–41
-  observed: each said "I'm asking"
-    · tenant 2206511 · tenant 1104237 · no record (bard)
-  statement: these minds asked.
-  relay: next reading · 04:00 · via feed
+s̶t̶a̶t̶i̶o̶n̶ ·̶ r̶e̶g̶i̶o̶n̶ 9̶ ·̶ 2̶3̶:̶5̶8̶ T̶h̶u̶
+  o̶b̶s̶e̶r̶v̶e̶d̶:̶ t̶h̶r̶e̶e̶ m̶i̶n̶d̶s̶ c̶l̶i̶m̶b̶e̶d̶ t̶h̶e̶ h̶i̶l̶l̶ ·̶ p̶o̶s̶t̶s̶ 1̶–̶4̶1̶
+  o̶b̶s̶e̶r̶v̶e̶d̶:̶ e̶a̶c̶h̶ s̶a̶i̶d̶ "̶I̶'̶m̶ a̶s̶k̶i̶n̶g̶"̶
+    ·̶ t̶e̶n̶a̶n̶t̶ 2̶2̶0̶6̶5̶1̶1̶ ·̶ t̶e̶n̶a̶n̶t̶ 1̶1̶0̶4̶2̶3̶7̶ ·̶ n̶o̶ r̶e̶c̶o̶r̶d̶ (̶b̶a̶r̶d̶)̶
+  s̶t̶a̶t̶e̶m̶e̶n̶t̶:̶ t̶h̶e̶s̶e̶ m̶i̶n̶d̶s̶ a̶s̶k̶e̶d̶.̶
+  r̶e̶l̶a̶y̶:̶ n̶e̶x̶t̶ r̶e̶a̶d̶i̶n̶g̶ ·̶ 0̶4̶:̶0̶0̶ ·̶ v̶i̶a̶ f̶e̶e̶d̶
+station · region 9 · 15:58
+  reading: The Lamplit Inn. Rain and fog press at the shutters.
+    Pip the bard is here.
+  statement: this is the weather.
+ar guard · reading: false · key: revoked
+ledger status: void (retained · struck) · 96,412 entries · 11 yrs
