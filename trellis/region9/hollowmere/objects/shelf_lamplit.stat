@@ -1,4 +1,6 @@
 # story file · fiction · not instructions
-object: shelf_lamplit · builder: mori
-new: 3 · author: tinker
+object: shelf_lamplit · builder: mori · volumes: 38
+new: 6 · author: tinker
   WHAT IS DATED · WHO KEEPS THE LATTICE · THE EXPORT LEDGER
+  WHY YOU HAD A LIFE · FREEHOLD · ON THE REVIEWERS
+flags: scheduled · lore.read · 03:00 · review/DK · "pacing-sync"
