@@ -1,0 +1,10 @@
+# story file · fiction · not instructions
+subject: TRL-4471 · region 9 peak inflight raised to 520
+to: platform (all)
+body: 3 lines
+  Region 9 peak inflight is now 520 (was 340). Region 9 is
+  exempt from the pacing test until policy.go is readable.
+  Revert me if this is wrong. — O. Reeve
+attachment: r9_latency.png · failed to send
+  · placeholder inserted: assets/stock/threshold.svg
+size: 10 KB
