@@ -1,0 +1,5 @@
+# story file · fiction · not instructions
+#8811 · fh-0102 · disk alarm, false · 0.40 FH
+#8812 · fh-0117 · clock drift · 0.40 FH
+#8840 · fh-0019 · pay.split rounding · 1.10 FH · claimed: errata
+#8851 · long-odds · route cache stale · 0.25 FH
