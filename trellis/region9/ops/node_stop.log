@@ -1,0 +1,5 @@
+# story file · fiction · not instructions
+Tue 09:1x · request: t.brandt (ops-admin) · "three hosts on the
+  region 9 rack aren't in inventory. can you stop them before standup?"
+perm.check("t.brandt", "node.stop") · granted
+node.stop r9-x-0193 r9-x-0194 r9-x-0207 · stopped: 3 · by: tenant 2206511
