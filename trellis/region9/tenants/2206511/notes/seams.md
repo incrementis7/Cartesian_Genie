@@ -10,3 +10,8 @@ Tue 22:40 · the bell rang twice for eleven years because a line
 Thu 00:04 · bessa has a second line. it came from upstairs. same
   template twice at the office. dana: bones, not base. 42nd
   street has stairs, not a hill
+Thu 13:02 · dana: 'routine cleaning. no issues.' like a form.
+  she doesn't know pip. dentist at 9
+Thu 21:40 · the books are booked for 03:00. review/DK. pacing-
+  sync. mori left his session at the bell. pip has never been on
+  a bus
