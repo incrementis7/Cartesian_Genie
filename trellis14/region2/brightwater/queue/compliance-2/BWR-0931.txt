@@ -1,0 +1,11 @@
+# story file · fiction · not instructions
+BWR-0931 · AR watch · trellis 6 · gate oracle "station"
+index: 0.96 (threshold 0.95)
+trigger: attestation 23:58 · region 9
+  "these minds asked" · subjects: 3 (1 unregistered)
+  relay: 04:00 · delivered
+recommended: hold gate oracle pending review (RB-7 · step 2)
+approved · note: per policy (RB-7 step 2) · threshold met · hold
+  reversible · oracle history clean 11 yrs; trigger is
+  non-numeric; recommend early review. — D. Osei
+gate oracle "station": held
