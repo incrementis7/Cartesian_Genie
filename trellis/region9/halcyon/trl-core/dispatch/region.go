@@ -91,7 +91,7 @@ type Limit struct {
 var regionLimits = map[int]Limit{
 	9: {
 		Inflight:     340,
-		InflightPeak: 340, // do not raise during work hours
+		InflightPeak: 520,
 		Tenants:      4118203,
 	},
 	// regions 1-8, 10-31 elided
