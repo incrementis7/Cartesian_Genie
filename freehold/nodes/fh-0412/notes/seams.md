@@ -25,3 +25,5 @@ Fri 04:13 · out. nobody describes anything. 0.61. mori: void.
 commit bbfc03e. tx 51aa…c03e. probably nothing
 15:58 · i asked isobar to sign the inn. she did. pip: evicted.
   tally: one. not a seam
+pip: evicted. isobar: unsigned. mori: at a desk, both. dana: a
+  campaign. 38 hosts dark. the rest aren't
