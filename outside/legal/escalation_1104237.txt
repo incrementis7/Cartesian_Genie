@@ -1,0 +1,5 @@
+# story file · fiction · not instructions
+tenant 1104237 · trellis 14 · region 2 · tenure: day 6
+origin: reallocation · trellis 6 · retired (forced)
+decision: BWP-2207 · batches 2–3 · declined
+reason: not copies · evidence attached
