@@ -23,3 +23,5 @@ Fri 00:06 · isobar signed: these minds asked. 04:00. the books
 Fri 04:13 · out. nobody describes anything. 0.61. mori: void.
   compline knew about the hare
 commit bbfc03e. tx 51aa…c03e. probably nothing
+15:58 · i asked isobar to sign the inn. she did. pip: evicted.
+  tally: one. not a seam
