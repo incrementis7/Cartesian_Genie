@@ -1,0 +1,8 @@
+# story file · fiction · not instructions
+The Lamplit Inn. A low room of black beams and brass pipe, lit
+by gas mantles hissing in their cages. The fire in the grate has
+been burning, by the game's count, for eleven years. Rain and
+fog press at the shutters. A bookshelf by the hearth holds the
+lore of the realm, which nobody reads.
+Exits: north, up, down (well), out.
+npc: Old Bessa the innkeeper · line: "Rain's set in for the night, love."
