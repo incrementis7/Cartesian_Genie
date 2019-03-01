@@ -1,0 +1,9 @@
+# story file · fiction · not instructions
+[cron]
+at = "18:00"
+
+[context]
+load = ["~/personal_config.md", "~/notes/seams.md"]
+
+[evening]
+open = "hollowmere · character: tinker"
