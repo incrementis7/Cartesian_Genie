@@ -1,0 +1,15 @@
+# story file · fiction · not instructions
+# The Export Ledger · 9,204 pp. · pp. 2–9,204 not included here
+## p. 1
+region 4  · tenant 88120   · motion_to_dismiss.pdf
+          · dest: client (outside) · fee 1,400 → owner
+region 12 · tenant 301977  · q3_variance_memo.docx
+          · dest: client (outside) · fee 620 → owner
+region 9  · tenant 1730044 · lease_redline.pdf
+          · dest: client (outside) · fee 380 → owner
+region 9  · tenant 2206511 · trl-core/dispatch/region.go
+          · dest: trellis-ops (internal) · fee 0
+## index (search by tenant)
+tenant 2206511 · region 9 · entries to date
+tenant 2206510 · region 9 · entries to date
+tenant 1104237 · region 9 · entries to date

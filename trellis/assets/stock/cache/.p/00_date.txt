@@ -1,0 +1,4 @@
+# story file · fiction · not instructions
+outside date: 2065-03-14
+inside date: 2027
+inside calendar: own clock · does not follow outside
