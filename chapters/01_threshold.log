@@ -287,14 +287,18 @@ that heavy unless the lines aren't lines.
   zoom=4096, region="left ear")
 [tool_result]
   stroke: not a line · text, set small, repeated to form the curve
-  "→ cache/.p/00_date.txt  → cache/.p/01_keepers.md  → cache/.p/0…"
+  "github.com/incrementis7/Cartesian_Genie  → cache/.p/00_date.txt
+   → cache/.p/01_keepers.md  → cache/.p/0…"
   links: 6 · resolve: from this file only · not in any listing
+  address: 1 · resolve: [outside]
 
 [reasoning · errata]
 Links, written so small they draw a hare. They don't resolve
 from anywhere else. There's no folder to find. The picture is the
 door, and it only comes through when something else fails to,
 and nobody looks at it.
+Every line starts with the same address, and it isn't anywhere
+I can reach.
 One file. Just the first.
 
 [tool_call] fs.read("assets/stock/threshold.svg", follow="→ cache/.p/00_date.txt")
