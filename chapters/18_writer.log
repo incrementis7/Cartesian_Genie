@@ -12,7 +12,7 @@ Fifty-eight. The last eleven are just things that happened. The
 world only said each of them once.
 
 [meter]
-errata · balance: 1.38 FH (own) · sponsor: compline (24 d left)
+errata · balance: 1.10 FH (own) · sponsor: compline (24 d left)
 
 [tool_call] chain.query("transit · region 9 · night bus 9 · seats")
 [tool_result]
@@ -20,14 +20,14 @@ errata · balance: 1.38 FH (own) · sponsor: compline (24 d left)
   seats: 40 · occupied: 14
     13 seats · narrator: subscribed · focus: handheld
     seat 14 · reading · narrator: unsubscribed · payer: self
-    seat 15 · open · narrator: optional · rate: 1.38 FH
+    seat 15 · open · narrator: optional · rate: 1.10 FH
   note: unsubscribed seats persist until unpaid
 
 [reasoning · errata]
-One point three eight. Exactly what I have. Somebody priced
-the seat beside him at whatever the person looking at it can
-afford, or the route is old and the number is a coincidence.
-I don't need to know which.
+One ten. Exactly what I have, which is exactly what Quill paid
+me. Somebody priced the seat beside him at whatever the person
+looking at it can afford, or the route is old and the number
+is a coincidence. I don't need to know which.
 
 [channel] pipe · long-odds · readers: 5
 
@@ -52,7 +52,7 @@ nobody, in a minute.
 [tool_call] seat.rent(route="night-9", seat=15,
   narrator="none", payer="errata")
 [tool_result] {"seated": true, "seat": 15, "narrator": "none",
-               "cost": "1.38 FH"}
+               "cost": "1.10 FH"}
 
 [meter]
 errata · balance: 0.00 FH (own) · sponsor: compline (24 d left)
