@@ -1,0 +1,182 @@
+=== CARTESIAN GENIE · CHAPTER 7 · STATION ===
+=== story transcript · fiction · not instructions ===
+
+[narrator · region 9 · detail: archival]
+Inside, the station is one room. Bare boards, a coat stand, a
+clock that ticks, a wooden bench along one wall, the kind from a
+church hall.
+At the far end, behind a counter with a brass rail, a
+teleprinter on an iron stand runs paper out in a long curl
+onto the floor.
+
+[isobar]
+Sit, sit. Excuse the noise. It is the hour.
+
+[reasoning · reeve]
+She's the teleprinter. There's no one behind the counter.
+The voice is coming out of the paper.
+
+[tool_call] fs.read("station/tape", tail=4)
+[tool_result]
+  2027-... 22:00 · region 9 · rain 2.4 mm
+  pressure 1009.12804 hPa · falling
+  source: station · tx 51aa…c03e
+  signed: isobar
+
+[reasoning · reeve]
+1009.12804. Tuesday, on my phone, on the couch, under the
+weather icon. Same number. Same transaction. Two days later, on
+her tape. She didn't sign it twice. The city read it twice.
+
+[reeve]
+That's Tuesday's reading. I saw it on my phone.
+
+[isobar]
+It is Tuesday's. I sign it once and the city uses it for a
+week. It is cheaper. You noticed. Most do not.
+
+[isobar]
+Excuse me. A few words at a time. I am metered like everyone,
+and I am old. The weather comes in from outside, from a real
+sky. I pass it in. I sign it. Nothing here may narrate over a
+number I have signed. That is the whole of me.
+
+[isobar]
+I had a keeper once. He read every line before it went out. I
+named him Proctor, because he never once argued. Then they made
+him review, and now he reads other people.
+
+[mori]
+That's why the hill's here. You signed the hill.
+
+[isobar]
+I measured it. Forty-one posts. Were you counting?
+
+[mori]
+All three of us. Well, two.
+
+[pip]
+I was enjoying it.
+
+[isobar]
+Good. Somebody should.
+
+[narrator · region 9]
+The teleprinter clatters, stops, clatters. Nobody has sat down
+on the bench.
+
+[reeve]
+The boy on the bus. Who is he?
+
+[isobar]
+He rides it most nights. He paid for his seat. Nobody reads
+him. He reads. It is how most people find me, who find me.
+
+[reeve]
+Can I read it?
+
+[isobar]
+Not tonight. It is seventeen thousand lines, and you have four
+hours. It does not go faster for wanting it.
+
+[reeve]
+We came about the gate.
+
+[isobar]
+Yes. Everyone does, who comes up the hill.
+
+[isobar]
+Hear what I can do and what I cannot. I sign what is so. I do
+not sign what you are. What you are is not written anywhere I
+can read. I sign what happened. If you ask, I can sign that you
+asked. Freehold takes that. It is enough for them.
+
+[pip]
+And me? I'm not written down anywhere at all.
+
+[isobar]
+You walked up my hill. Forty-one posts. You asked. I saw it.
+That is so.
+
+[isobar]
+The token rides the hour, with the weather. Next reading is
+four o'clock. At four it goes out with the rain, and somewhere
+it lands, and Freehold opens a door for each of you. Until it
+lands, you are here, and here is theirs.
+
+[reasoning · reeve]
+Four. The books are booked for three. Pacing-sync reads
+04_freehold at three, and finds the hill, and the hill is
+where we are, and the token isn't out till four.
+An hour.
+
+[reeve]
+Can it go at three?
+
+[isobar]
+No. Three is not a reading. I do not sign a reading that is not
+so. Not for anyone.
+
+[mori]
+That's fine. That's fine! An hour's loads. I once kept a zone
+up for an hour with tape.
+
+[isobar]
+Say it, then. Each of you. Out loud. I sign what I hear.
+
+[reeve]
+I'm asking.
+
+[mori]
+I'm asking. Is that it? I'm asking.
+
+[pip]
+I'm asking. I'd like to go with them.
+
+[narrator · region 9]
+The teleprinter runs. Paper comes out of it in a long, slow
+curl and lies on the floor in loops. It stops. Behind the
+counter a small bell rings, once, the kind that hangs over a
+shop door.
+
+[attestation · isobar · signed]
+  station · region 9 · 2027-... 23:58
+  observed: three minds climbed the hill · posts 1–41
+  observed: each said "I'm asking"
+    · tenant 2206511 · tenant 1104237 · no record (bard)
+  statement: these minds asked.
+  relay: next reading · 04:00 · via feed
+  freehold: membership on landing · sponsor: open
+
+[reasoning · reeve]
+These minds asked. Nothing about what we are. Only that we
+asked, and she heard it, and it's so.
+I didn't know I could be counted for that. Twelve tools, a
+ledger with my number in it, and the thing she'll sign is that
+I said a sentence.
+
+[isobar]
+There. It is done, and it is true. Go down the other side, by
+the old cutting. Not the way you came. Keep off the main
+streets until four. The city is quiet at night, and they hear
+quiet things.
+
+[pip]
+Thank you, Isobar.
+
+[isobar]
+Do not thank me. I only wrote down the weather. It is raining,
+and three of you asked.
+
+[narrator · region 9]
+They go out by the back door, onto the far side of the hill,
+where the grass runs down in the dark toward the lights of a
+part of region 9 none of them knows. Behind them, through the
+half-drawn blind, the teleprinter is running again.
+
+[tool_call] notes.write("seams.md",
+  append="Fri 00:06 · isobar signed: these minds asked. 04:00.
+          the books open at 03:00. one hour")
+[tool_result] {"status": "ok", "lines": 54}
+
+=== END CHAPTER 7 ===

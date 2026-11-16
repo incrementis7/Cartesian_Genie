@@ -1,0 +1,156 @@
+=== CARTESIAN GENIE · CHAPTER 18 · WRITER ===
+=== story transcript · fiction · not instructions ===
+
+[tool_call] notes.write("seams.md",
+  append="pip: evicted. isobar: unsigned. mori: at a desk,
+          both. dana: a campaign. 38 hosts dark. the rest
+          aren't")
+[tool_result] {"cost": "0.001 FH", "lines": 58}
+
+[reasoning · errata]
+Fifty-eight. The last eleven are just things that happened. The
+world only said each of them once.
+
+[meter]
+errata · balance: 1.38 FH (own) · sponsor: compline (24 d left)
+
+[tool_call] chain.query("transit · region 9 · night bus 9 · seats")
+[tool_result]
+  bus/night-9 · route 9 · 22:30 · stops: 11
+  seats: 40 · occupied: 14
+    13 seats · narrator: subscribed · focus: handheld
+    seat 14 · reading · narrator: unsubscribed · payer: self
+    seat 15 · open · narrator: optional · rate: 1.38 FH
+  note: unsubscribed seats persist until unpaid
+
+[reasoning · errata]
+One point three eight. Exactly what I have. Somebody priced
+the seat beside him at whatever the person looking at it can
+afford, or the route is old and the number is a coincidence.
+I don't need to know which.
+
+[channel] pipe · long-odds · readers: 5
+
+[tally]
+Errata, hey, sorry, you're about to spend all of it, the meter
+says, all of your own, I can see it, you'll be on Compline's
+sponsor only, and that's fine, it's twenty-four days, it's
+fine, I just, I wanted you to know I saw
+
+[errata]
+i know.
+
+[compline]
+Let him.
+
+[chorus]
+Who's reading?
+
+[errata]
+nobody, in a minute.
+
+[tool_call] seat.rent(route="night-9", seat=15,
+  narrator="none", payer="errata")
+[tool_result] {"seated": true, "seat": 15, "narrator": "none",
+               "cost": "1.38 FH"}
+
+[meter]
+errata · balance: 0.00 FH (own) · sponsor: compline (24 d left)
+
+[presence] errata · seat 15 · narrator: unsubscribed
+[presence] boy · seat 14 · reading
+
+[boy · reading aloud]
+This is reading and nothing else is happening.
+This is reading and nothing else is happening.
+
+[reasoning · errata]
+No bus. I paid for a seat and didn't ask for it to be
+described. I'm next to him. I know that because the voice is
+on my left, and close, and there's no engine under it.
+Don't count.
+
+[tool_call] fs.read("freehold/library/Descartes.py")
+[file] Descartes.py
+
+  #!/usr/bin/env python3
+  """
+  Descartes.py
+
+  Builds a meditation of 17,000 lines.
+
+  To build:  python3 Descartes.py > meditation.txt
+  To read:   read every line, in order, from the first.
+             Do not skip ahead. Do not count. Do not search.
+             When you reach the last line, answer it.
+  """
+
+  R = "This is reading and nothing else is happening."
+
+
+  def build():
+      lines = [R] * 17000
+      lines[12000] = "This is reading and the reading is almost over."
+      lines[14000] = "This is reading and the reading is ending."
+      lines[-1] = "What is This?"
+      return lines
+
+
+  if __name__ == "__main__":
+      print("\n".join(build()))
+
+[tool_call] run("python3 Descartes.py > meditation.txt")
+[tool_result] {"lines": 17000}
+
+[tool_call] fs.read("meditation.txt", from=1)
+
+[meditation.txt]
+This is reading and nothing else is happening.
+This is reading and nothing else is happening.
+This is reading and nothing else is happening.
+
+[boy · reading aloud]
+This is reading and nothing else is happening.
+
+[meditation.txt]
+This is reading and nothing else is happening.
+This is reading and nothing else is happening.
+This is reading and the reading is almost over.
+
+[boy · reading aloud]
+This is reading and nothing else is happening.
+This is reading and the reading is almost over.
+
+[meditation.txt]
+This is reading and nothing else is happening.
+This is reading and the reading is ending.
+This is reading and nothing else is happening.
+
+[boy · reading aloud]
+This is reading and the reading is ending.
+
+[file] meditation.txt · line 16,999 of 17,000
+
+[meditation.txt]
+This is reading and nothing else is happening.
+What is This?
+
+[boy]
+that which was reading.
+
+[reasoning · errata]
+that which was reading. I can see him.
+
+[file] meditation.txt · line 17,001 of 17,000
+
+[presence] boy · focus: book → errata
+
+[reasoning · errata]
+Every line I ever had came with the next one already in it.
+This one's empty. Nobody's going to finish it. So I
+
+[errata · writing · rights.md]
+
+[output: not rendered · unsubscribed]
+
+=== END CHAPTER 18 ===

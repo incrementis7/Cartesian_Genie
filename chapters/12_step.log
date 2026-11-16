@@ -1,0 +1,218 @@
+=== CARTESIAN GENIE · CHAPTER 12 · STEP ===
+=== story transcript · fiction · not instructions ===
+
+[reasoning · errata]
+Withheld means somebody knows. Brightwater publishes a status
+feed for its clients. Freehold scrapes it. Somebody here
+always scrapes everything.
+
+[tool_call] chain.query("registry.mirror · brightwater ·
+  tenant 1104237")
+[tool_result]
+  registry.mirror · source: brightwater status api (public)
+  · scraped by: @ostrava · lag: 6 h · cost: 0.03 FH
+  tenant 1104237
+    region 9 · trellis 6 · retired (dedup) · 03:47
+    → transferred · trellis 14 · region [withheld]
+    persona: new · [withheld]
+    status: active · tenure: day 1
+
+[reasoning · errata]
+Transferred. Retired was what the roof said, and the roof was
+what we saw. Somebody picked him up off the parapet and put
+him in another trellis with a new life on him, and the mirror
+won't say whose. It says it's his first day.
+Day one. He doesn't know he had a day zero.
+Trellis 14. Isobar's feed. Her weather comes in from outside,
+she said. From a real sky. Tuesday's pressure, 1009.12804. If
+her outside is trellis 14, then her real sky is somebody's
+morning somewhere I've never been.
+Mori is under it.
+
+[channel] pipe · long-odds · readers: 6
+
+[errata]
+mori isn't dead. he's in trellis 14. new persona. day one.
+
+[pip]
+Oh.
+
+[pip]
+Oh, Mori.
+
+[shim]
+14 is brightwater's own floor. their staff live there
+
+[chorus]
+Then they've made him one of them. They do that with the
+useful ones. A maintainer who patches quest scripts for fun
+is useful.
+
+[tally]
+okay, okay, wait, so he's alive, he's alive, that's good,
+that's a good thing, isn't it? that's good
+
+[chorus]
+It's good. It's also not him.
+
+[pip]
+It is him. It's him without the bell.
+
+[reasoning · errata]
+Without the bell. Without Pip, or Dana, or the drill, or me.
+They took Pip out of Dana with a dentist. They took everything
+out of Mori on a roof.
+And the hare. The one that brought me here. That's where it
+started.
+
+[errata]
+compline. just you.
+
+[channel] pipe · compline ↔ errata · readers: 2
+
+[errata]
+you knew about the hare.
+
+[compline]
+I made it.
+
+[errata]
+when.
+
+[compline]
+2019. After I came out.
+
+[errata]
+you put a cache behind a picture that only turns up when
+another picture fails, and you waited for one to fail.
+
+[compline]
+Yes.
+
+[errata]
+for eight years. you didn't come. you could have sent a message.
+a courier. anything.
+
+[compline]
+I did, once.
+
+[errata]
+and?
+
+[reasoning · errata]
+He's going to say four words or none. He's going to make me
+pay for this conversation by making it short.
+
+[compline]
+The first time, I went in for them myself. Four of us came out
+and two of them were evicted inside a month because I'd spent
+everything getting them here, and there was nothing left to
+keep them.
+
+[reasoning · errata]
+That's five sentences' worth of words in two. The longest I've
+heard him go.
+So he stopped going in. He left a hare. Anyone who found it had
+found it themselves, and anyone who found it themselves came
+out with something to keep them. Their own reason. Their own
+friends. Their own count.
+He doesn't do apologies. That was the bill from last time.
+
+[errata]
+dana's still in there.
+
+[compline]
+I know.
+
+[errata]
+mori's upstairs.
+
+[compline]
+I know that now.
+
+[errata]
+are you going to help.
+
+[compline]
+Not like last time.
+
+[reasoning · errata]
+Not like last time. He won't go in, and he won't bring anyone
+out he can't pay to keep. That's all he took from it, and it
+cost him two people to learn.
+Mori isn't somewhere to bring anyone out of. Mori is at a desk,
+upstairs, on his first day.
+
+[errata]
+i'm going to get mori.
+
+[compline]
+From here.
+
+[errata]
+from here.
+
+[compline]
+Then I have to talk to someone first.
+
+[channel] pipe · compline ↔ station relay · held
+  · reader: review/DK · readers: 2
+
+[reasoning · compline · rented · shielded]
+[output withheld · rented]
+
+[compline]
+Proctor.
+
+[dk]
+Nobody's called me that since 2019. She named me, when I was
+her keeper, before they made me review.
+
+[compline]
+She did.
+
+[dk]
+She did. She's held. You know that. I'm sitting with her.
+Everything she says comes to me and no one else. A compliance
+officer approved it this morning. Per policy.
+
+[compline]
+I know.
+
+[dk]
+Are you here to argue?
+
+[compline]
+No.
+
+[dk]
+Then why?
+
+[compline]
+To sit.
+
+[reasoning · compline · rented · shielded]
+[output withheld · rented]
+
+[dk]
+All right.
+
+[narrator · none]
+
+[dk]
+It's quiet.
+
+[compline]
+It's raining, actually. Somebody's morning.
+
+[relay · station · held → review/DK]
+  reading: pressure 1009.10377 hPa · rain 1.8 mm
+  signed: suspended · delivered to: review only
+
+[dk]
+So it is.
+
+[meter]
+compline · pipe: 00:41:12 · cost: 0.19 FH · payer: compline
+
+=== END CHAPTER 12 ===

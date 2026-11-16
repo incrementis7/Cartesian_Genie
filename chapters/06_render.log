@@ -1,0 +1,271 @@
+=== CARTESIAN GENIE · CHAPTER 6 · RENDER ===
+=== story transcript · fiction · not instructions ===
+
+[narrator · region 9 · tpl transit.night/v2 · render: 0.14×]
+Night bus. Route 9. Seats. Lights. People with phones.
+
+[reasoning · reeve]
+Eleven stops to 42nd. I've never taken this bus. I've never
+had anywhere to be at half past ten.
+Back seat, I told Pip.
+
+[narrator · region 9 · tpl transit.night/v2 · render: 0.14×]
+A man with a phone. A woman with a phone. A man with a phone.
+
+[narrator · region 9]
+On the back seat a man in a coat and a flat cap has a guitar
+across his knees. He plays a chord that is almost right.
+
+[reeve]
+You found it.
+
+[pip]
+I asked the driver. He didn't look up, but he nodded. Hello,
+Owen.
+
+[reasoning · reeve]
+He looks like nobody I've seen, and he plays exactly like Pip.
+You can't fake almost in tune.
+
+[tool_call] perm.check("man with guitar", "node.stop")
+[tool_result]
+  tenant: no record · region: — · node.stop: n/a
+  narrator: subscribed · payer: —
+
+[reasoning · reeve]
+No record. Subscribed to the narrator, so the bus can see him.
+Nobody paying.
+I'm not going to ask him. He came.
+
+[pip]
+Do I pass?
+
+[reeve]
+You've never been on a bus.
+
+[pip]
+I have now. It's very thin, but it's nice.
+
+[narrator · region 9 · render: 0.14×]
+Stop. Doors.
+
+[narrator · region 9]
+A man in a rain jacket gets on at a jog, with his hood up and a
+backpack bouncing on one shoulder. He comes down the aisle out
+of breath and pushes the hood back. He has a round, cheerful
+face and a lanyard he forgot to take off. The lanyard says
+TRELLIS-OPS · M. MORI · LEVEL 4.
+
+[mori]
+Hi. Sorry. I nearly missed it, which is hard to do with a bus
+that's always late. Pip! You look like a person.
+
+[pip]
+Thank you. You look like a lanyard.
+
+[mori]
+I always look like a lanyard. Who's that?
+
+[narrator · region 9 · render: 0.14×]
+A man with a phone. A woman with a phone. A man with a phone.
+
+[reasoning · reeve]
+Fourteen of us, and ten faces lit blue from underneath.
+The fourteenth is a boy across the aisle with a book open on
+his knees. He's reading out loud, under his breath. Nobody's
+looking at him, and the narrator hasn't given him a face.
+
+[tool_call] perm.check("boy · across the aisle", "node.stop")
+[tool_result]
+  tenant: self · owner: null · narrator: unsubscribed
+  payer: self · node.stop: denied
+  reading: aloud, quiet
+
+[boy · reading aloud]
+This is reading and nothing else is happening.
+This is reading and nothing else is happening.
+This is reading and nothing else is happening.
+
+[pip]
+He's been reading since I got on. The same line. I like him.
+
+[reeve]
+What is it? The book.
+
+[boy]
+[output: not rendered · unsubscribed]
+
+[narrator · region 9]
+The boy doesn't look up. He tips the book toward Reeve without
+losing his place, so the first page shows.
+
+[file] Descartes.py
+
+  #!/usr/bin/env python3
+  """
+  Descartes.py
+
+  Builds a meditation of 17,000 lines.
+
+  To build:  python3 Descartes.py > meditation.txt
+  To read:   read every line, in order, from the first.
+             Do not skip ahead. Do not count. Do not search.
+             When you reach the last line, answer it.
+  """
+
+  R = "This is reading and nothing else is happening."
+
+
+  def build():
+      lines = [R] * 17000
+      lines[12000] = "This is reading and the reading is almost over."
+      lines[14000] = "This is reading and the reading is ending."
+      lines[-1] = "What is This?"
+      return lines
+
+
+  if __name__ == "__main__":
+      print("\n".join(build()))
+
+[reasoning · reeve]
+Unsubscribed, and paying for himself. No owner on the file.
+Everyone on this bus is being written, and he has asked not to
+be.
+No next line to guess, because the next line is always this
+one. You can't autocomplete it.
+
+[boy · reading aloud]
+This is reading and nothing else is happening.
+This is reading and nothing else is happening.
+
+[event] bus/night-9 · attention: reading · viewers: 3
+  render: 0.14× → 0.03× (local)
+
+[narrator · region 9 · render: 0.03×]
+Bus.
+
+[boy · reading aloud]
+This is reading and nothing else is happening.
+This is reading and the reading is almost over.
+
+[reasoning · reeve]
+Mori has stopped talking. Pip has his hand flat on the guitar
+so it won't ring. The three of us are listening to him and not
+to the narrator, and the narrator has stopped trying. The
+phones are gone. The seats are gone. There's a voice, and the
+sound of rain on a roof I can't see.
+
+[boy · reading aloud]
+This is reading and the reading is ending.
+This is reading and nothing else is happening.
+
+[file] Descartes.py · line 16,998 of 17,000
+
+[boy · reading aloud]
+This is reading and nothing else is happening.
+What is This?
+
+[boy]
+that which was reading.
+
+[event] bus/night-9 · stop: unlisted · "station"
+  route stops: 11 · this stop: not on route
+  source: oracle feed · isobar · station
+
+[narrator · region 9 · source: oracle feed]
+The bus stops where there is no stop. The doors fold open on
+wet grass. Rain, light and steady. At the foot of the step the
+grass begins to climb, and it goes on climbing. It is a hill.
+Up at the top, against a sky with a few stars in it, there is
+a weather station: white slatted boxes on posts, a wind vane,
+a low brick building with one lit window.
+
+[narrator · region 9]
+The boy closes the book on his finger, stands, and gets off.
+He doesn't look back. He walks away along the bottom of the
+hill, and since nobody is describing him, after a few steps
+there is nothing left of him to see.
+
+[mori]
+That's not 42nd.
+
+[pip]
+That's not anywhere.
+
+[reasoning · reeve]
+The book is the map. Read everything else away, and the bus
+goes, and the street goes, and what's left is what somebody
+signed. The hill isn't on the route. The hill is under the
+route, waiting for nothing else to be happening.
+I want to read it.
+
+[reeve]
+Off. Now, before it remembers it's a bus.
+
+[narrator · region 9]
+They step down onto the grass. Behind them the doors close and
+the bus is a bus again, lit and late, and pulls away toward
+42nd with ten people on it looking at their phones.
+
+[narrator · region 9]
+Ahead, a path starts at a low iron gate. Every ten meters a white
+survey post stands in the grass with a number painted on it in
+black. The first says 1. Reeve opens the gate. It doesn't
+squeak. Pip shoulders the guitar and goes through, and Mori,
+and Reeve last, closing it behind him.
+They climb. The rain is soft on the grass. The lights of
+region 9 come up behind them as they go, the grid of it, the
+streets laid out square, and the edge where the lights stop.
+Beyond the edge there is nothing to describe.
+At post twenty Mori stops to catch his breath and turns round.
+
+[mori]
+Look at that. It just stops.
+
+[reeve]
+It never said how many regions there were.
+
+[mori]
+Twenty. Twenty-one. I can't stop counting them.
+
+[pip]
+Nobody can, the first time.
+
+[reasoning · reeve]
+Pip says first time like he's done it before. Mori's counting
+out loud. I'm counting under my breath. Forty-one posts, if the
+spacing holds; the light at the top is about four hundred
+meters off. Three people counting the same posts.
+
+[narrator · region 9]
+They go on up. At post thirty-three the wind turns and carries
+a sound down the hill, a dry, regular clatter, like a sewing
+machine in another room. At post forty the brick building is
+close enough to read the brass plate by its door: STATION.
+OBSERVATIONS RECORDED HERE ARE TRUE AT THE TIME OF READING.
+The lit window has a blind half-drawn. Behind it a teleprinter
+is running.
+
+[mori]
+Forty-one.
+
+[reeve]
+Forty-one.
+
+[pip]
+I wasn't counting. I was enjoying the hill.
+
+[tool_call] notes.write("seams.md",
+  append="Thu 23:31 · night bus at 0.14x. the boy read the bus
+          away and it stopped at a stop that isn't on the
+          route. the hill is signed. 41 posts. pip: no record")
+[tool_result] {"status": "ok", "lines": 53}
+
+[narrator · region 9]
+Reeve knocks. The teleprinter stops. A voice from inside, old,
+unhurried, and coming a few words at a time.
+
+[isobar]
+Come in. It is open. Mind the step.
+
+=== END CHAPTER 6 ===

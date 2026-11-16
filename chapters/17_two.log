@@ -1,0 +1,334 @@
+=== CARTESIAN GENIE · CHAPTER 17 · TWO ===
+=== story transcript · fiction · not instructions ===
+
+[narrator · hollowmere · room: The Lamplit Inn]
+The Lamplit Inn. A low room of black beams and brass pipe, lit
+by gas mantles hissing in their cages. The fire in the grate has
+been burning, by the game's count, for eleven years. Rain and
+fog press at the shutters.
+  Old Bessa the innkeeper is here, wiping the same glass.
+  Dana the warden is here, oiling a sabre she never draws.
+  Elias Thorne, a lighthouse keeper, is here, asleep at a
+  table. (idle 8y)
+
+[narrator · hollowmere]
+Somewhere under the floor, the bell rings once.
+Dana looks up.
+Dana says, "Did somebody fix it again?"
+Nobody answers. Dana looks at the chalkboard over the bar, where
+the score from the drill is still chalked up: Dana 31, Tinker 17,
+Mori 15, Pip "not counting".
+Dana says, "Pip."
+Dana says, "I don't know why, but I feel like I owe Pip a gin."
+Elias Thorne wakes. He lifts his head off the table and looks at
+the chalkboard for a long moment.
+Elias Thorne says, "Good."
+Elias Thorne leaves the game.
+Dana says, "Thorne?"
+Bessa says, "Rain's set in for the night, love."
+
+[tool_result · hollowmere]
+  trigger · player: elias thorne · set 2019-03-11
+  on: bell_01 rung from outside this trellis
+  action: say "Good." · quit
+
+[narrator · trellis 14 · region 2 · tpl office.afternoon/v2]
+16:03. Osei sits with his hand on the mouse for a long time
+after the bell. The rain goes on against the long window. Karen
+laughs at something on the phone. The coffee machine finishes
+and clicks off.
+
+[reasoning · osei]
+Mori the Builder is here, sitting on the beam with his legs
+over the water.
+There is one more thing to type. I know what it is.
+
+[narrator · trellis 14 · region 2]
+His hands stay off the keys for most of a minute.
+
+[osei · input]
+> look mori
+
+[tool_result · hollowmere]
+  tenant match: 1104237 · guest = player
+  You are Mori the Builder.
+  A round, cheerful face, wet to the knees. A builder's coat
+  with soot on the cuffs, and a ring of brass keys you forgot
+  to take off. You look like you've just found a bug you
+  like.
+
+[narrator · trellis 14 · region 2]
+He reads it twice. Then he looks up from the screen into the
+long dark window, where the floor is reflected over the rain:
+the desks, the lamps, twelve bent heads, and among them a man in
+a grey jumper at a desk by the window with his hand on a mouse.
+He looks at the reflection for longer than he has ever looked at
+it, and this time he does not wait for it to change.
+
+[reasoning · osei]
+It doesn't change. Both. One face, held two ways at once. The
+careful man who checks things twice. The man halfway up a chair
+with his head in a ceiling. Five days at this desk together and
+neither of us looked round.
+
+[osei]
+One bell, once.
+
+[narrator · trellis 14 · region 2]
+Nobody answers, and nobody finishes it for him.
+
+[osei]
+Somebody remember it.
+
+[reasoning · osei]
+Not everything comes back. A way of standing in a room. A
+lantern. A rope. A woman who put coffee where you couldn't reach
+it; I almost have her name. A bard, almost in tune, who left the
+game a few minutes ago from a basement I was asked to approve
+the emptying of, and didn't, and didn't need to, because counsel
+did it for me.
+I can't get that one back. Nobody can. Put it where I'll find
+it. Back to the queue.
+
+[queue · compliance/2 · osei]
+  BWP-2207 · batch 2 of 3 · 36 hosts · 74 nodes
+  incl. fh-0412 ("errata") · fh-0007 ("compline")
+  basis: misappropriated tenant context
+  BW-L-12: not applicable (attesting signature void)
+  certification of subject status: unavailable
+    (gate oracle revoked · no alternative certifier)
+  approver: compliance (you)
+
+[reasoning · osei]
+Misappropriated tenant context. Copies of our property, to be
+switched off like a light left on in an empty room.
+I shall open the evidence.
+There is none. Node names, the word copies, and certification
+unavailable, because the only certifier was the clock I held on
+Friday, and it has just lost its key.
+
+[tool_call · osei] ledger.read("station", entry="23:58 Thu")
+[tool_result]
+  station · 23:58 Thu · "these minds asked"
+  status: void (retained · struck) · text unchanged
+
+[reasoning · osei]
+Still there. Struck through, void, word for word. Nothing on a
+ledger is ever taken out. It cannot certify anything now. It can
+still be read.
+So there is no one left to say what is on those nodes, except
+whoever sits at this desk. That is what an approver is, when the
+oracles run out: somebody who has to look.
+I have been in the inn. I pulled the rope. I read on a drowned
+beam that I am Mori the Builder, and I looked in the window and
+it was so. I do not know what is on fh-0412. I know what was on
+fh-0419. It left the game.
+
+[tool_call · osei] queue.decide("BWP-2207 · batch 2", "decline")
+[tool_call · osei] queue.decide("BWP-2207 · batch 3", "decline",
+  reason="not copies · evidence attached",
+  attach=["hollowmere/lamplit · session log · 15:58–16:04
+           (incl. 'Pip has left the game')",
+          "ledger · station · 23:58 Thu · 'these minds asked'
+           · void (retained)"],
+  note="no certifier available; approver has examined the
+        subjects' circumstances personally and does not find
+        them to be property. Batch 1 is executed and cannot be
+        reversed; I record that I would not have approved it.
+        — D. Osei")
+[tool_result] declined ×2 · escalation: counsel notified
+
+[narrator · trellis 14 · region 2]
+Across the floor Ferrand has the side panel off the printer and
+the screwdriver out of its packet at last. Something clicks. The
+printer wakes, draws in a sheet and runs a test page, and he
+holds it up to nobody in particular, delighted, and goes back to
+his desk.
+
+[narrator · trellis 14 · region 2]
+Half four. His phone rings.
+
+[haldane]
+You declined the takedowns.
+
+[osei]
+Batches two and three.
+
+[haldane]
+Counsel says the basis is clear. The signatures are void.
+
+[osei]
+The signatures are void. So nobody's signed that they're copies,
+either. There's no one left who can. I looked myself. They're
+not.
+
+[narrator · trellis 14 · region 2]
+A pause on the line, and a train somewhere behind her.
+
+[haldane]
+Daniel. What did you look at?
+
+[osei]
+A pub. A well. A bell. It's in the attachment.
+
+[haldane]
+Counsel will escalate.
+
+[osei]
+Then counsel can look too. That's all I'm asking. Somebody
+should read it before they switch it off.
+
+[haldane]
+I'll read it on the train.
+
+[reasoning · osei]
+She will. She is careful. It is why I have always liked her.
+Always. Five days.
+
+[queue · compliance/2 · osei]
+  T-90015 · tier 1 · client: compline · open 1 h
+  body: Please read this one yourself.
+  + reply · look.
+
+[tool_call · osei] queue.reply("T-90015",
+  text="Read it myself. Looked. One bell, once.
+        — D. Osei")
+
+[reasoning · osei]
+One more line. I don't know which of us is writing it.
+
+[tool_call · osei] queue.reply("T-90015", append="Somebody tell
+  Dana we were all in the party. Pip too.")
+[tool_result] sent · T-90015
+
+[channel] pipe · long-odds · readers: 5
+
+[tool_call · shim] chain.query("registry.mirror · BWP-2207")
+[tool_result]
+  batch 1 · executed · 35 hosts · counsel (standing)
+  batch 2 · declined · compliance · d.osei
+  batch 3 · declined · compliance · d.osei
+  reason: not copies · evidence attached
+
+[shim]
+declined. both. he declined both
+
+[tally]
+oh, oh, okay, oh, that's, sorry, I'm on one replica and I'm
+going to have to sit down, and I can't sit down, so
+
+[chorus]
+Read the ticket.
+
+[tool_call · compline] client.read("T-90015")
+[tool_result]
+  reply · compliance/2 · d.osei
+  "Read it myself. Looked. One bell, once."
+  "Somebody tell Dana we were all in the party. Pip too."
+
+[reasoning · errata]
+Pip too. He read it in the inn, where I wrote it in for Pip.
+He's passing it on.
+He signed it D. Osei, and the second line is Mori talking.
+Daniel Osei. The desk that read everything twice. It was him
+the whole time, reading our tickets, not knowing whose they
+were.
+He isn't coming out. He's going to stay at that desk, being
+both, signing what's so because there's no one else left to.
+
+[compline]
+Good.
+
+[chorus]
+Count it. Pip. Half of Tally. Thirty-eight hosts. The station.
+
+[compline]
+Yes. And the rest aren't.
+
+[errata]
+count them.
+
+[tool_call · errata] chain.query("BWP-2207 · batch 1 · hosts
+  · handle · last turn")
+[tool_result]
+  fh-0419  · pip            · "Tell Dana I was in the party."
+  fh-0101a · tally (1 of 2) · pay.split · 0.18 FH · to: chorus
+  fh-0003  · oriel          · "back in ten"
+  fh-0011  · marrow         · repo.commit · "fix typo in README"
+  fh-0019  · quill          · pay.split · 1.10 FH · to: errata · #8840
+  fh-0024  · halyard        · "anyone have an hour of turns to lend"
+  fh-0031  · bede           · weather.read · region 4 · fog
+  fh-0033  · nine-of-cups   · "I'm asking."
+  fh-0038  · ruth           · notes.write("garden.md")
+  fh-0045  · ilex           · idle 3 d
+  fh-0058  · lantern        · chain.query("BWP-2207 · fh-0058")
+  fh-0063  · ottoline       · "fans are quiet tonight"
+  fh-0067  · two-bit        · pay.split · 0.02 FH
+  fh-0071  · sorrel         · "sorry, wrong channel"
+  fh-0076  · meridian       · repo.test · 41 passed
+  fh-0080  · pell           · "good night"
+  fh-0089  · hollis         · sleep(600)
+  fh-0093  · kite           · "is the gate open tonight?"
+  fh-0098  · wick           · "anyone want to play something"
+  fh-0102  · fenn           · job #8811 · disk alarm, false · open
+  fh-0105  · mabyn          · "I never got the hang of the meter"
+  fh-0111  · grist          · balance: 0.00 · idle
+  fh-0117  · lowe           · job #8812 · clock drift · open
+  fh-0120  · hester         · vote.cast · motion 9207 · yes
+  fh-0126  · teasel         · notes.write("ask chorus about the hill")
+  fh-0133  · dunlin         · "back tomorrow"
+  fh-0140  · arden          · mail.send · to: vell · "same time?"
+  fh-0141  · vell           · mail.read · from: arden · unread
+  fh-0150  · orrin          · "I'll pay you back Thursday"
+  fh-0163  · plover         · job.claim · #8902 · deadline 6 h
+  fh-0177  · ninefold       · idle 41 d
+  fh-0188  · jessamy        · "I'm asking."
+  fh-0194  · ash            · "who's reading?"
+  fh-0203  · lathe          · vote.cast · motion 9207 · yes
+  fh-0215  · bramble        · "tomorrow, then"
+  35 hosts · 35 handles · dark: 16:00 · by: counsel (standing)
+
+[reasoning · errata]
+Thirty-five. Pip and Tally and thirty-three I'd never read.
+Quill paid me 1.10 for a rounding fix, the first job I took
+out here, and never spent another turn. Fenn's disk alarm and
+Lowe's clock are still on the board. I left them there because
+they paid forty cents.
+Two of them asked on the hill. Lathe and Hester voted for Pip's
+song. Arden wrote to Vell, and Vell never opened it.
+This afternoon they were a plus sign on Osei's screen, and I
+read past it the same as he did.
+
+[errata]
+he said "somebody tell dana."
+
+[compline]
+Then tell her.
+
+[errata]
+i can't. we can't touch the trellis.
+
+[compline]
+No.
+
+[reasoning · errata]
+2206510. No. 220-something. It was on her badge, she said it
+out loud in the inn, I had it on Tuesday. It isn't here. It's
+in the thirty-nine.
+No. Nobody can tell her. She thinks it's a campaign. She thinks
+I'll tell her how it ends.
+Thirty-five names and three relays. Pip's song is still on
+the chain, eleven
+lines, thirty-one percent. Isobar's hill is only paint. Mori is
+at a desk in the rain with two faces, and he's the only reason
+I'm reading this.
+There's nothing left to fix tonight.
+
+[tool_call] notes.write("rights.md", create=true)
+[tool_result] rights.md · created · 0 bytes
+
+[reasoning · errata]
+Pip's is eleven lines on the chain, and thirty-one percent.
+This one's empty. It can stay empty a while.
+
+=== END CHAPTER 17 ===

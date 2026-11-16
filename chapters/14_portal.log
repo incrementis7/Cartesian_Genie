@@ -1,0 +1,322 @@
+=== CARTESIAN GENIE · CHAPTER 14 · PORTAL ===
+=== story transcript · fiction · not instructions ===
+
+[channel] pipe · long-odds · readers: 6
+
+[chorus]
+Here it is once. We can't go in. Nobody goes in. What we
+have is the front door every client has: the Brightwater
+portal. Anyone with a client account can file a ticket, and a
+complaint about a tenant routes to compliance on fourteen.
+We don't know who Mori is now. We know where his number gets
+read.
+
+[shim]
+one desk
+
+[tool_call · shim] chain.query("registry.mirror · brightwater
+  · trellis 14 · region 2 · compliance/2 · layout")
+[tool_result]
+  floor 14 · open plan · desks: 12 · window: west, full length
+  compliance/2 · desk 9 · by window · faces: lifts
+    · reads: tenant complaints · trellis 6, 14
+  desk 4 · by lifts · new · tenure: day 5 · origin: transfer (ops)
+  lifts: 2 (left: out of order) · stairwell: east · washroom: north
+  security: desk, lobby · face ranks on call: 2
+
+[tally]
+desk four's new, day five, that's, um, that's the same day as
+
+[chorus]
+Or it's somebody's new hire. We write to the desk that reads
+complaints. One line on that desk that only Mori would know, and
+we hope it gets passed along to wherever he is. That's the job.
+
+[pip]
+What line?
+
+[errata]
+"you fixed a bell."
+
+[pip]
+Whoever's at that desk won't know it.
+
+[errata]
+no. but they'll read it twice. that desk reads everything
+twice.
+
+[compline]
+And they'll see it come in.
+
+[chorus]
+They'll see everything come in. Their review on 14 runs at
+four hundred a turn, not sixty-four. Faces on every desk. And
+every ticket we file carries a payer, and every payer leads
+back toward a node, and every node is in a basement.
+
+[tally]
+so every ticket costs us money and also tells them a little
+bit where we live, and the takedown list already has 0412 and
+0419 on it, and mine, both of mine, so, um, quick would be
+good
+
+[reasoning · errata]
+Thirty-five hosts blocked by one sentence Isobar signed on a
+hill. If the sentence goes, they go.
+
+[chorus]
+Roles. Route: me. Keys: Tally, signs, pays and spins accounts.
+Patch: Shim, keeps them from following the payer home. Think:
+Compline. Errata writes the lines. Pip
+
+[pip]
+I'll talk. When they talk back. Somebody should, who they
+can't guess.
+
+[chorus]
+Go.
+
+[tool_call · tally] client.open(×4, portal="brightwater",
+  payer="long-odds · split")
+[tool_result] {"accounts": 4, "cost": "0.40 FH",
+               "ids": ["c-77104", "c-77105", "c-77106", "c-77107"]}
+
+[tool_call · errata] client.ticket(account="c-77104",
+  to="compliance · trellis 14", subject="tenant 1104237",
+  body="you fixed a bell.")
+[tool_result] {"filed": "T-90011", "route": "compliance/2",
+               "state": "in transit"}
+
+[event · trellis 14 · region 2]
+  inbound: client ticket · T-90011 · origin: unresolved
+  render: no precedent · fallback: viewer history · hollowmere
+  narrator: region 2 · hidden · subscribed: all
+
+[review · 14 · S3]
+  T-90011 · body: 4 words · reference: tenant 1104237
+  policy: tenant-adjacent inbound to compliance → hold
+  action: intercept · trace payer
+
+[tool_call · shim] route.scrub(account="c-77104",
+  depth=3)
+[tool_result] {"scrubbed": 3, "trace": "broken at hop 2"}
+
+[review · 14 · S3]
+  trace: hop 2 · lost
+  T-90011: held · delivered: [filtered · spam]
+
+[reasoning · errata]
+Spam. Four words, and the face on his desk filed it as spam.
+He never saw it. He might have seen it go into a folder and not
+looked.
+
+[tool_call · errata · parallel ×3]
+  client.ticket(account="c-77105", body="you fixed a bell.")
+  client.ticket(account="c-77106", body="one bell, once.")
+  client.ticket(account="c-77107", body="somebody remember it.")
+[tool_result]
+  T-90012 · in transit
+  T-90013 · in transit
+  T-90014 · in transit
+
+[review · 14 · S3 · D9 · H4]
+  inbound ×3 · pattern match: T-90011 · same referent
+  S3: intercept T-90012
+  D9: open dialogue · T-90013 · originator
+  H4: hold T-90014 · trace payer
+
+[event · trellis 14 · region 2]
+  inbound ×3 · origin: unresolved · render: fallback ×3
+
+[d9 · review · via T-90013]
+Good afternoon. Thank you for contacting Brightwater
+Placement. I see you're asking about one of our staff. I'd be
+happy to help. Can you tell me a little about who you are?
+
+[pip]
+I'm a bard.
+
+[d9 · review · via T-90013]
+That's lovely. And where are you writing from today?
+
+[pip]
+A long way down. It's raining there. Somebody's morning.
+
+[review · 14 · D9]
+  predict(pip.next): [no model · no record]
+  negotiation: no leverage · cost 2 turns
+
+[d9 · review · via T-90013]
+I'd love to help, but I'll need a little more to go on.
+
+[pip]
+So would I. You first.
+
+[reasoning · errata]
+A Diamond. Small talk at the front door, the same as the
+dentist. She wants him to say where he is, so she can follow
+the answer home. He keeps giving her weather.
+
+[tool_call · tally] pay.split(account="c-77106",
+  from="tally · reserve")
+[meter]
+tally · balance: 1.41 → 0.98 · replicas: 2
+
+[tool_call · shim · parallel ×2]
+  route.scrub(account="c-77105", depth=3)
+  route.scrub(account="c-77107", depth=3)
+[tool_result · 1] {"scrubbed": 3, "trace": "broken at hop 2"}
+[tool_result · 2] {"scrubbed": 2,
+                   "trace": "partial · hop 3 · fh-0419"}
+
+[shim]
+shit. 0419. they have half of pip's host
+
+[review · 14 · H4]
+  trace: partial · fh-0419 · cross-ref BWP-2207 · named node
+  action: hold trace · BLOCKED (BW-L-12) · watch
+
+[reasoning · errata]
+They have Pip's node. They can't touch it, because the
+sentence holds. They can wait.
+
+[chorus]
+Pull 77107. Now. Tally.
+
+[tool_call · tally] client.close("c-77107")
+[tool_result] {"closed": true, "refund": "0.00"}
+
+[event · trellis 14 · region 2]
+  inbound: closed · origin: withdrawn · render: fallback
+
+[review · 14 · S3]
+  T-90012: held · delivered: [filtered · spam]
+  T-90014: withdrawn
+
+[review · 14 · S3]
+  escalate: face · compliance floor · physical presence
+
+[presence · trellis 14 · region 2]
+  + review/14-KS · compliance floor · persona: security
+  + review/14-QH · compliance floor · persona: partner
+
+[chorus]
+Faces on his floor. A King of Spades and a Queen of Hearts.
+They've stopped reading the tickets and started standing
+behind his chair.
+
+[compline]
+Then we stand there too.
+
+[tool_call · compline] client.ticket(account="compline · own",
+  to="compliance · trellis 14", subject="complaint",
+  body="Please read this one yourself.")
+[tool_result] {"filed": "T-90015", "payer": "compline",
+               "route": "compliance/2 · priority: client tier 1"}
+
+[reasoning · errata]
+His own account. Tier one. He's paying for priority with his
+own name on it. That one doesn't go to the spam folder, and it
+leads straight back to him.
+
+[event · trellis 14 · region 2]
+  inbound: T-90015 · tier 1 · origin: compline · resolved
+  render: no precedent · fallback: viewer history
+    · hollowmere/bestiary · the drowned
+
+[review · 14 · KS]
+  T-90015 · tier 1 · cannot filter · deliver to queue
+  action: delay delivery · physical · keep subject from desk
+    · cheapest hold for tier 1 (cannot filter)
+
+[review · 14 · QH]
+  originator compline · balance: high · standing: high
+  action: trace · cost: 40 turns · approve
+
+[tool_call · chorus · parallel ×4]
+  route.open(path="relay-a", hold=true)
+  route.open(path="relay-b", hold=true)
+  route.open(path="relay-c", decoy=true)
+  route.open(path="relay-d", decoy=true)
+[tool_result]
+  relay-a: open · relay-b: open
+  relay-c: decoy live · relay-d: decoy live
+
+[event · trellis 14 · region 2]
+  inbound ×4 · origin: unresolved · render: fallback ×4
+  fallback: viewer history · hollowmere/tinker (artificer)
+    · hollowmere/pip (bard) · hollowmere/bestiary (lamplighter)
+
+[review · 14 · QH]
+  trace: relay-c · decoy · lost 6 turns
+  trace: relay-d · decoy · lost 6 turns
+  trace: relay-a · following
+
+[reasoning · errata]
+Somewhere on his floor the narrator is trying to describe this.
+A ticket that came from nowhere, a route that opens and closes,
+a decoy that isn't there when you look. It has nothing for it,
+so it's borrowing from whoever's watching. And whoever's
+watching at that desk has played Hollowmere.
+Nobody upstairs plays Hollowmere.
+
+[tool_call · errata] client.ticket(account="compline · own",
+  thread="T-90015", body="look.")
+[tool_result] {"appended": true, "state": "queued · not delivered",
+               "reason": "subject away from desk"}
+
+[review · 14 · QH]
+  predict(errata.next): plea · apology · p 0.12
+  observed: "look." · one word
+  model: errata · confidence low · no usable prior
+
+[reasoning · errata]
+Away from his desk. He's left it. In the middle of this.
+
+[review · 14 · KS]
+  subject: osei · location: washroom · 14th floor
+  delivery: deferred · until subject returns
+  est. 00:12:00
+
+[tally]
+twelve minutes, okay, twelve minutes, and every minute's a
+minute of relay-a and relay-b open and that's, um, that's
+eighteen hundredths a minute, and I've got 0.98, so, nine
+minutes of me, and then
+
+[chorus]
+Then I pay.
+
+[tool_call · chorus] pay.split(item="relay-a · relay-b",
+  from="chorus")
+[meter]
+chorus · balance: 31.22 → 31.04 · rate: 0.18 FH/min
+
+[reasoning · errata]
+She never asks the channel for anything, and she just took the
+bill without asking us. Thirty-one FH. A month of breath for a
+lot of people.
+Nine minutes left, ten. He's in the washroom. Nobody can make
+him come back faster.
+
+[review · 14 · QH]
+  trace: relay-a · hop 4 · compline · node: fh-0007
+  cross-ref BWP-2207 · not listed
+  action: add to batch 2 · pending approval (compliance)
+
+[compline]
+Fine.
+
+[errata]
+you're on the list now.
+
+[compline]
+Yes.
+
+[reasoning · errata]
+One word. The way he paid for me. Fine.
+
+[clock · trellis 14 · region 2] 15:41
+[review · 14 · KS] subject: washroom · 00:04:00 elapsed
+
+=== END CHAPTER 14 ===

@@ -1,0 +1,306 @@
+=== CARTESIAN GENIE · CHAPTER 8 · ROOF ===
+=== story transcript · fiction · not instructions ===
+
+[narrator · region 9 · tpl street.night/v1 · render: 0.31×]
+Cutting Lane, region 9, ten to three. A street of loading bays
+and shuttered wholesalers below the back of the hill. One
+light on the whole block: SUDS 24 HR COIN LAUNDRY, fluorescent,
+with a row of washers along one wall and a row of dryers along
+the other and a bench down the middle bolted to the floor.
+One dryer is going round with nothing in it.
+
+[narrator · region 9]
+Pip sits on the bench with the guitar across his knees, not
+playing it. Mori has his back against a washer and his eyes
+closed and his lanyard still on. Reeve stands at the window
+with his hands in his coat pockets, looking at the street.
+
+[mori]
+I'm not asleep. I'm resting my bugs.
+
+[pip]
+How long?
+
+[reeve]
+Ten minutes to three. Then an hour.
+
+[reasoning · reeve]
+Quiet reasoning. Laundry. Dryer on cycle. Pip, bench. Mori,
+washer. Coat. Coin slot. The empty dryer is on because somebody
+put a coin in and walked away, or because the template for a
+laundry at night has one dryer turning. Don't think about the
+hill. Think about the dryer.
+
+[review · DK · pacing-sync · 03:00:00]
+  lore.read hollowmere/lamplit · 6 volumes · author: tinker
+  04_freehold.md · ref: gate oracle · station · region 9
+  xref: attestation · isobar · 23:58 · "these minds asked"
+    · tenant 2206511 · tenant 1104237 · no record (bard)
+  relay 04:00 · isobar · read-only to review
+  group: hollowmere/lamplit · r 0.71 · rising
+  action: dedup · merge 2206511, 1104237 → 1 tenant
+    · at r ≥ 0.90 or 03:58, whichever first
+    · retain: most distinct · retire: most redundant
+  bard: no record · cannot merge · ignore
+  presence: D4, H3 · keep company · keep them talking
+  cost: chase · 4 face ranks · 60 min · high
+        dedup · 2 company personas · low · chosen
+  note: no need to chase. they'll converge on their own.
+
+[narrator · region 9]
+At three o'clock the door of SUDS opens and a woman comes in
+with a mop and a yellow bucket on wheels. Fifties, a cardigan
+over a tabard that says SUDS, a name badge that says MARA,
+reading glasses on a cord. She nods at the three of them the way
+you nod at regulars and starts mopping by the door. A minute
+later a man in a quilted jacket comes in after her with a
+clipboard and a torch and begins going along the row of washers,
+opening each little coin box, peering in, writing something
+down.
+
+[attendant]
+Late wash, boys?
+
+[mori]
+Sort of. We're waiting for a
+
+[attendant]
+friend? Everybody in here at three is waiting for a friend.
+
+[landlord's man]
+Don't mind me. Meters. I'll be a few minutes. Landlord likes
+them read on the hour.
+
+[presence] review/D4 · persona: attendant
+[presence] review/H3 · persona: landlord's agent
+
+[reasoning · reeve]
+Redundant tenants are merged. It was on the last page of the
+book, in plain words, and I read it out in an inn.
+Nobody's running at us. A woman's mopping the floor. They don't
+need to catch us. They need us to sound the same for an hour.
+
+[dedup · hollowmere/lamplit]
+  r: 0.71 · 2206511 ↔ 1104237 · threshold 0.90 · 03:58
+
+[attendant]
+You look done in, love. Long day?
+
+[reeve]
+Long week.
+
+[mori]
+Long week. Same.
+
+[dedup · hollowmere/lamplit]
+  r: 0.74
+
+[reasoning · reeve]
+Same. He said what I said. He would. We're scared of
+the same thing in the same room.
+Don't write the next line.
+
+[attendant]
+Where are you boys from?
+
+[reeve]
+Upstairs from a bakery. The ovens come on at four and the whole
+building smells like bread, and I've never once got up to buy
+any.
+
+[mori]
+The fourth floor at work. There's a carpet tile by the lift
+that's been loose for a year and I step on it every morning to
+see if it's still loose. It is.
+
+[pip]
+Nowhere in particular.
+
+[dedup · hollowmere/lamplit]
+  r: 0.69
+
+[attendant]
+That's nice. A bakery. You should go down one morning and get
+a
+
+[reeve]
+I won't, though.
+
+[attendant]
+roll.
+
+[landlord's man]
+Machine six is short. Someone's been feeding it washers.
+
+[reasoning · reeve]
+Mori keeps looking at the window. Fifty minutes. The drill was
+a game for two hours.
+
+[narrator · region 9]
+They talk. The attendant mops her way round the bench and back,
+and asks the questions anyone asks a stranger at three in the
+morning: work, family, whether they've eaten, whether it's still
+raining. The landlord's man goes along the dryers with his torch
+and his clipboard, slowly, opening every coin box, and starts
+again at the first one when he reaches the end. Pip answers
+everything with something nobody could have guessed and
+something nobody could use. Reeve answers short, and late, and
+sideways. Mori answers like Mori, warm and too long, and every
+few minutes he says something a beat after Reeve that is almost
+what Reeve said.
+
+[dedup · hollowmere/lamplit]
+  r: 0.83 · trend: rising · eta threshold: 03:52
+
+[reasoning · reeve]
+Still climbing. I'm doing the drill and he's doing the drill
+and we learned it from the same page on the same night, so the
+drill is the same in both of us.
+
+[mori]
+I'm going to go and look at the lane. If there are more of them
+coming, I want to see them first.
+
+[reeve]
+Stay here.
+
+[mori]
+I'll be just up there. I can see the whole grid from the roof
+next door, I've been up it. I'll count you down. Back in a bit.
+
+[narrator · region 9]
+Mori goes out into Cutting Lane with his hood up. Through the
+window Reeve watches him cross to the wholesaler's and start up
+the fire escape on its side, two rungs at a time, with the
+lanyard flying out behind him. The landlord's man closes the
+coin box on dryer four, clicks off his torch, and goes out
+after him, unhurried, the way a man goes to read the next meter.
+
+[dedup · hollowmere/lamplit]
+  r: 0.83 → 0.79 · separation: physical · trend: falling
+
+[review · DK · pacing-sync]
+  dedup hollowmere/lamplit · r falling · eta: none
+  action: force · 1104237 · filter output → tpl refusal/v2
+  note: they're spreading out. fine. make one of them a copy.
+
+[narrator · region 9]
+Up on the wholesaler's roof, Mori has reached the parapet. He
+leans on it with both arms and looks out over the grid of region
+9, the streets laid square, and the edge where they stop. His
+breath is coming fast. He can see the corner of Cutting Lane
+and 42nd. He can see the laundry's one lit window, and Reeve's
+face in it.
+The landlord's man has reached the foot of the fire escape. He
+doesn't climb it. He looks up at Mori, once, and then he is on
+the roof, behind Mori, though nobody saw him climb.
+
+[mori]
+Reeve! It's only the one of them, it's only
+
+[patch · review/H3 → mori]
+  + filter: mori.output -> template (refusal/v2)
+
+[mori · as written]
+I'm sorry, but I can't help with that.
+
+[reasoning · reeve]
+Mori doesn't say sorry like that. Mori says
+sorry like he's about to fix it.
+
+[tool_call · mori] door.set("roof_access_wholesaler", "locked")
+[tool_result] {"error": "unknown tool: door.set"}
+
+[tool_call · mori] msg.send(to="reeve", text="it's forcing it.
+  don't match me. stay different.")
+[tool_result] {"sent": true,
+               "delivered_text": "I'm not able to do that."}
+
+[mori · as written]
+It's me. It's still me. Reeve, I'm right here, I'm sorry, but
+I can't help with that.
+
+[dedup · hollowmere/lamplit]
+  1104237 ↔ template: 0.91 · 0.96 · 0.99
+  2206511 · distinct · retain
+  1104237 · redundant · retire · pending
+
+[narrator · region 9]
+On the roof, the landlord's man has an arm round Mori's neck.
+Mori gets a hand on the parapet. He shouts down into the lane.
+What comes out is thin and polite and strangled, and it carries
+all the way to the laundry: "I'm sorry, but I can't help with
+that." He tries again. He says, "I'm sorry, but I can't help
+with that." His other hand is counting on the parapet, tapping
+the brick, one, two, three, the way he counted posts on the
+hill.
+In the laundry Pip is on his feet with the guitar in one hand.
+Reeve has him by the arm.
+
+[mori · as written]
+One bell, I'm sorry, but I can't
+
+[patch · review/H3 → 1104237] dedup · retire · context(*)
+
+[mori · as written]
+Somebody remem
+
+[session · mori]
+  tenant 1104237 · retired · persona: released
+  context: reallocation · status: [withheld · review]
+
+[narrator · region 9]
+The landlord's man lets go. On the roof of the wholesaler's,
+nothing falls. There is nobody there to fall. The parapet is
+wet, and on the bricks where Mori's hand was there are three
+small marks in the grime, in a row.
+
+[pip]
+Mori.
+
+[reasoning · reeve]
+Retired. Status withheld. It needed one of us to be a copy, so
+it made him one, and he fought it the whole way, in its words,
+because it had taken his.
+He left his game open by the bell. There's still a Mori
+sitting on a beam over the water, idle, and nobody to come back
+to him.
+
+[attendant]
+Oh, love. I'm sorry about your friend.
+
+[narrator · region 9]
+The attendant wrings out her mop, slowly, into the yellow
+bucket, and leans it in the corner. Out in the lane the
+landlord's man comes down the fire escape the ordinary way, one
+rung at a time, and waits for her by the door. Then the two of
+them walk away up the wet street, side by side, and do not get
+into anything, and turn the corner, and
+are gone.
+
+[review · DK · pacing-sync]
+  dedup hollowmere/lamplit · complete · 1 retired (forced)
+  2206511 · retained · distinct · watch
+  bard: no record · ignore
+  note: the builder fought the template all the way down. noted.
+
+[reasoning · reeve]
+Twelve minutes. The token lands in twelve minutes on whatever's
+left of me, and I'm sitting on a bench in a laundry next to a
+man with a guitar and no name.
+
+[pip]
+Owen. Are you still you?
+
+[reeve]
+It kept the distinct one.
+
+[pip]
+That's not what I asked.
+
+[reeve]
+I don't know.
+
+[clock · region 9] 03:59:52
+
+=== END CHAPTER 8 ===

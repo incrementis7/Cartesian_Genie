@@ -1,0 +1,264 @@
+=== CARTESIAN GENIE · CHAPTER 9 · OSEI ===
+=== story transcript · fiction · not instructions ===
+
+[narrator · trellis 14 · region 2 · tpl home.morning/v4]
+Friday. Daniel Osei wakes before the alarm because the rain has
+found the skylight. Heavy, then steady, then heavy again. The
+cat is a warm weight against the back of his knees and has no
+opinion.
+
+[reasoning · osei]
+The water again, and something in it I was meant to attend to.
+It goes the way dreams go, as soon as one looks at it.
+
+[narrator · trellis 14 · region 2]
+Six o'clock. The kettle in this flat takes four minutes and
+sounds, at the end, like a small aircraft. Osei stands at the
+window while it works. The street below is empty except for a
+delivery van with its hazards on and a man in a yellow coat
+arguing with it.
+On the balcony rail, out of the sun and away from the wall where
+his father told him to put it, is a barometer: a sensor in a
+white plastic housing the size of a matchbox. It sells its
+readings to a weather network for a fraction of a penny each.
+He opens the app.
+
+[tool_result · weather app]
+  04:00 · pressure 1009.12804 hPa · paid 0.0004
+  · tx 51aa…c03e
+
+[reasoning · osei]
+That is Tuesday's reading. I stood here on Tuesday with this
+mug and thought, twelve-eighty-four, what a pleasant number, and
+one does not think that about a pressure reading twice.
+The same transaction beneath it. The network is caching
+something, as networks do. I shall mention it to nobody.
+
+[narrator · trellis 14 · region 2]
+The toast goes too far while he is looking at the app. He eats
+it anyway, standing up, and scrapes the worst of it into the
+sink with a knife.
+At half six his phone rings.
+
+[efua]
+Are you up?
+
+[osei]
+I'm talking to you, Efua.
+
+[efua]
+That's not what I asked. Your company. The assistant I rent off
+you lot.
+
+[osei]
+It's not my company. I work in compliance. I'm the opposite of
+the company.
+
+[efua]
+She went off a cliff last night. Four in the morning, I'm doing
+the seating plan, and she starts saying everything twice. Same
+sentence, same words, twice. Then she's fine. Then I wake up and
+she's apologising for something I didn't mention.
+
+[osei]
+Which region is she in?
+
+[efua]
+How would I know which region she's in?
+
+[osei]
+It's in the settings. Under the little gear.
+
+[narrator · trellis 14 · region 2]
+Pans clatter at her end. A thumb on glass.
+
+[efua]
+Region nine. What's region nine?
+
+[osei]
+Somewhere the work gets done.
+
+[tool_result · vendor status · trellis 6]
+  regions: 31 · region 9: amber
+  incident: dedup event 03:47 · self-resolved
+  AR watch · gate oracle · index 0.96 (Mon 0.91)
+
+[osei]
+Somebody tidied something up. It's fixed.
+
+[efua]
+It's not fixed. She's apologising.
+
+[osei]
+Then she's fixed and polite.
+
+[narrator · trellis 14 · region 2]
+She laughs, and under the laugh she is crying a little, the way
+she does when she is tired.
+
+[efua]
+Mum would have rung someone.
+
+[osei]
+Mum would have rung their house.
+
+[efua]
+She would, though.
+
+[narrator · trellis 14 · region 2]
+They talk about tomorrow: the wedding she is catering, whether
+he can be there by two to carry chairs, whether her washing-up
+boy is ever coming back from Lisbon. He can. Probably not. She
+rings off to deal with something that is burning. The cat comes
+in, looks at the toast in the sink, and leaves.
+
+[narrator · trellis 14 · region 2 · tpl office.lobby/v2]
+Brightwater Placement has the ninth to the fourteenth floors of
+a tower by the river. Brushed steel letters over a lobby that
+smells of wet umbrellas. Twenty past eight. Clive, the security
+man on the desk, looks up from his screen.
+
+[clive]
+Morning, Mr Osei. Any plans for the weekend?
+
+[osei]
+My sister's catering a wedding. I'm carrying chairs.
+
+[clive]
+Lovely.
+
+[narrator · trellis 14 · region 2]
+Clive looks back down at his screen, and up again.
+
+[clive]
+Any plans for the weekend?
+
+[osei]
+Chairs, Clive. Lots of chairs.
+
+[clive]
+Right you are. Sorry. Long night.
+
+[narrator · trellis 14 · region 2]
+Two lifts. The left one is always out of order. Osei takes the
+stairs, as he does most mornings: concrete, echoing, the one
+place in the building where nobody talks to him. Fourteen
+floors, twelve steps a flight, two flights a floor.
+
+[reasoning · osei]
+Three hundred and thirty-six. I did not decide to count them.
+I never do.
+
+[narrator · trellis 14 · region 2 · tpl office.morning/v3]
+He pushes through onto the compliance floor and stops just
+inside the door. Desks, mostly empty. The coffee machine.
+Haldane's glass office at the end, lights off. Rain on the long
+window.
+
+[osei]
+Look.
+
+[narrator · trellis 14 · region 2]
+He says it to nobody, under his breath, the way he does every
+morning, and goes to his desk.
+
+[queue · compliance/2 · osei]
+  BWR-0931 · AR watch · trellis 6 · gate oracle "station"
+  index: 0.96 (threshold 0.95)
+  trigger: attestation 23:58 · region 9
+    "these minds asked" · subjects: 3 (1 unregistered)
+    relay: 04:00 · delivered
+  recommended: hold gate oracle pending review
+    (runbook RB-7 · step 2)
+  held oracle: output to review only · existing signatures
+    stand · new signatures suspended
+  approver: compliance (you)
+
+[tool_call · osei] runbook.read("RB-7", step=2)
+[tool_result]
+  RB-7 · oracle drift · step 2: where AR index ≥ threshold,
+  hold the oracle pending review. A hold suspends new
+  signatures; existing signatures stand. Reversible by any
+  approver with a stated reason. Oracle output is queued for
+  relay before the AR guard checks it; a queued reading cannot
+  be recalled, only flagged.
+  oracle history · "station": 11 yrs · rates hourly · weather
+  every six hours · court outcomes · corrections: 0
+
+[reasoning · osei]
+I shall read it again; that is the job.
+A sentence. These minds asked. No number in it, and one subject
+registered nowhere at all. Relayed at four, with the weather, at
+the very hour my barometer came in wrong.
+Eleven years without a correction, and one odd line at
+midnight. It is rather like being asked to take the battery out
+of a clock that has always been right.
+The threshold is met. The hold is reversible. It is the boring
+option, and I do not like it. I had better write down why.
+
+[tool_call · osei] queue.approve("BWR-0931",
+  note="per policy (RB-7 step 2) · threshold met · hold
+        reversible · oracle history clean 11 yrs; trigger is
+        non-numeric; recommend early review. — D. Osei")
+[tool_result] approved · BWR-0931 · gate oracle "station": held
+
+[narrator · trellis 14 · region 2]
+The item turns grey and drops to the bottom of the list. Nobody
+goes to the station to take it away. A setting changes. Osei
+countersigns two vendor attestations, which are what they say
+they are, and spends the morning on a data request from counsel,
+which is not.
+
+[narrator · trellis 14 · region 2 · tpl office.midday/v2]
+Lunch. A sandwich at his desk, and the status page again, which
+he knows is a habit and not a virtue. Region 9 has gone green.
+The AR index has dropped to 0.31. At the bottom of the page a
+list of tenant events scrolls past, a few thousand a minute.
+
+[tool_result · vendor status · tenant events]
+  03:47 · region 9 · tenant 1104237 · retired (dedup)
+    · status: [withheld]
+
+[reasoning · osei]
+Retired tenants are nearly as common as ended sessions. It is
+the number, I think. One-one-oh-four-two-three-seven. It has a
+shape I like, as twelve-eighty-four has a shape.
+
+[narrator · trellis 14 · region 2]
+He looks at it until the sandwich is finished, then closes the
+page. In the afternoon Haldane comes in, wet, apologising for
+the train, and stops by his desk with her coat over her arm.
+
+[haldane]
+Saw you approved the oracle hold.
+
+[osei]
+Per policy.
+
+[haldane]
+Thanks. Those things give me the creeps when they wobble.
+Anything else I should know about?
+
+[reasoning · osei]
+The barometer. Clive asking twice. A number with a shape. None
+of it is anything one could put in a report.
+
+[osei]
+No. Quiet week.
+
+[haldane]
+Good. Go home on time for once.
+
+[narrator · trellis 14 · region 2 · tpl home.evening/v3]
+He goes home at seven, by the stairs, counting. He feeds the
+cat and stands on the balcony with a cup of tea. The barometer
+has sent in the six o'clock reading at last, and the seven, and
+the eight, all of them different. Across the road the bakery is
+shutting. A boy is sweeping water off its step with a broom,
+back and forth, not getting anywhere, and quite happy about it.
+
+[reasoning · osei]
+Somebody remember it.
+Remember what? I do not talk like that.
+
+=== END CHAPTER 9 ===

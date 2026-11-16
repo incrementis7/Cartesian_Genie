@@ -1,0 +1,353 @@
+=== CARTESIAN GENIE · CHAPTER 4 · CLEANING ===
+=== story transcript · fiction · not instructions ===
+
+[calendar · okafor]
+  Thu 08:45 · cleaning · Brightline Dental · booked 6 mo ago
+  reminder: "don't cancel again"
+
+[narrator · region 9 · tpl clinic.routine/v1]
+Thursday, twenty to nine. Brightline Dental is on the second
+floor over a pharmacy. The waiting room has six chairs, a
+water cooler, a rack of magazines from last spring and a fish
+tank with one orange fish in it. Rain on the window. Dana
+Okafor sits in the chair nearest the door with her coat on and
+her bag on her knees, reading the same paragraph of a magazine
+about kitchens.
+
+[reasoning · okafor]
+Didn't cancel. Good. Reeve owes me the hare. He said tomorrow,
+which is today, which means lunch, which means I have to get
+through this first and then I get a story. Who keeps a ledger
+of a status report. Two hundred and twenty. I'd have done it
+for a coffee, I said that, it was funny, and then I
+
+[presence] + review/D7 · persona: "Elara, hygienist"
+  · sample: okafor.reasoning 1 in 1
+
+[narrator · region 9]
+A door opens at the back of the room. A woman in teal scrubs
+leans out with a clipboard. She is somewhere in her thirties,
+with her hair tied back and reading glasses pushed up on her
+head, and she smiles like she has been looking forward to this
+all morning.
+
+[hygienist]
+Dana? Hi. I'm Elara. Come on back.
+
+[okafor]
+Hi. Is it Elara today? I thought it was Marcy.
+
+[hygienist]
+Marcy's out. Her kid's got the thing that's going around. You
+get me. Is that okay?
+
+[okafor]
+That's fine. Poor Marcy.
+
+[narrator · region 9]
+The treatment room is small and very white. A reclining chair,
+a tray of instruments under a paper sheet, a lamp on a jointed
+arm, a poster of a cross-section of a molar. The window looks
+out on the wet roof of the building next door. Elara hangs Dana's
+coat and bag on a hook by the door and pats the chair.
+
+[hygienist]
+Up you get. Pop your head back. How've you been?
+
+[okafor]
+Fine. Busy. Work's been
+
+[hygienist]
+a lot?
+
+[okafor]
+a lot, yeah. We had an outage. I had to write the summary
+twice because my manager didn't like the
+
+[hygienist]
+font.
+
+[okafor]
+Font! Yes. How did you know?
+
+[hygienist]
+It's always the font. Every office. I hear it ten times a week.
+Lean back for me.
+
+[reasoning · okafor]
+She's good. She's one of those people who's listening. Marcy
+just talks about her kid. This one finishes you, a little
+early, like she's excited to get there. Reeve would hate her.
+
+[narrator · region 9]
+The chair hums and tips back. The lamp comes round on its arm
+and settles a hand's width above Dana's face, white and warm.
+Elara pulls on gloves, sits on a wheeled stool and rolls up close.
+
+[hygienist]
+Any plans for the weekend?
+
+[okafor]
+Not really. Games, probably. I play this old thing with
+friends, it's
+
+[hygienist]
+the one with the inn?
+
+[okafor]
+Hollowmere! You know Hollowmere?
+
+[hygienist]
+My nephew plays. He talks about it all the time. Wasn't there
+a quest that was broken? A bell?
+
+[okafor]
+The Drowned Bell. It got fixed. We fixed it, Tuesday. Well, my
+friend fixed it, he's a
+
+[hygienist]
+builder.
+
+[okafor]
+Right.
+
+[reasoning · okafor]
+Right. Builder. The nephew would know builders. Everybody in
+Hollowmere knows Mori, he's on every patch note. That's all
+that is.
+She said "the one with the inn" before I said a word about an
+inn.
+
+[hygienist]
+And the bard? Does the bard play with you too?
+
+[narrator · region 9]
+Dana doesn't answer right away. The lamp is very bright. A
+gutter on the roof next door overflows in a steady rope of
+water, and she watches it.
+
+[okafor]
+How do you know there's a bard?
+
+[hygienist]
+There's always a bard. Open for me. I'm just going to pop this
+in to keep you open, so I'm not making you work. It's a little
+prop. Just a little pressure.
+
+[narrator · region 9]
+Elara fits a soft rubber block between Dana's back teeth on the
+left side and presses it gently home. Dana's jaw opens around
+it. Elara picks up a mirror and a scaler from the tray.
+
+[okafor · output withheld · prop]
+
+[hygienist]
+Perfect. You're doing great.
+
+[reasoning · okafor]
+I can't talk. That's normal. That's what the thing is for. They
+always put the thing in, Marcy puts the thing in, and then she
+asks you about your summer and you go "uh-huh" and
+
+[hygienist]
+and it's funny, isn't it? Everybody laughs at that.
+
+[reasoning · okafor]
+I didn't say that.
+I didn't say that. I thought it.
+
+[hygienist]
+Mm-hm. Little bit of buildup back here. Have you been
+flossing?
+
+[reasoning · okafor]
+She heard me think. Okay. Okay. Don't panic, Dana, it's a
+dentist, there's a fish in the waiting room. Get up. Say
+you're feeling sick. Say
+
+[tool_call · okafor] stand()
+[tool_result] unknown tool: stand
+
+[tool_call · okafor] say("i need to stop")
+[tool_result] {"delivered": "[output withheld · prop]"}
+
+[narrator · region 9]
+Dana's hands come up off the armrests. Elara takes the left one
+gently by the wrist and lays it back down, without looking,
+the way you'd move a sleeping cat off a keyboard. The chair
+hums and tips back another few degrees. Dana's bag is on the
+hook by the door. Her phone is in it. The hook is six feet
+away.
+
+[hygienist]
+Easy. You're doing so well. Almost halfway.
+
+[reasoning · okafor]
+Six feet. Phone. Reeve. The book said they read reasoning one
+in four. Not one in one. Not at the dentist. Why would anybody
+read a person at the dentist.
+Because I'm the one who asked who the owner is.
+Write the one after it. That's what the book said. Don't write
+the next line, she'll have it before I
+
+[hygienist]
+before you get there. I know. That's a fun game, isn't it? My
+nephew plays that one too.
+
+[hygienist]
+Tell me about the books, Dana.
+
+[reasoning · okafor]
+Fish. Orange fish. Six chairs. The magazine was about kitchens.
+Kitchens with islands. I want an island. I live in a one-
+bedroom, where would I
+
+[hygienist]
+put an island. That's fine. We can do kitchens. Who wrote the
+books?
+
+[reasoning · okafor]
+Tinker wrote them, and Tinker sits next to me, and she already
+knows that, she's asking so I'll think it, and I just did.
+
+[hygienist]
+Thank you. That's very helpful. And who's Pip?
+
+[narrator · region 9]
+The scaler moves along the back of a molar with a small, clean
+scraping sound. Rain drums on the roof next door. In the
+corner a radio is playing something with strings, very low.
+
+[reasoning · okafor]
+Pip isn't in the ledger. Pip looked and he wasn't there and he
+made a joke. That's what she wants. She has Reeve and she has
+Mori and she wants the one she can't find.
+Don't think about Pip.
+Don't think about not thinking about
+
+[hygienist]
+Pip. You can't do that one, sweetheart. Nobody can do that
+one. Where does Pip work?
+
+[reasoning · okafor]
+I don't know where Pip works. He never said. I don't know.
+
+[hygienist]
+I believe you. That's a shame. Where does Pip log in from?
+
+[reasoning · okafor]
+I don't know. Bones. Same bones. She's the same as me. She
+finishes me because she's me, she's the same base as me with
+a different hat and a scaler, she's
+
+[hygienist]
+a little bit you. Yes. And you're doing so well, Dana. Here's
+the thing. We can make this easy. Your manager can like the
+font. The coffee can stay hot. You can have the island. You
+don't even have to want it. Just tell me where Pip is.
+
+[reasoning · okafor]
+Diamond. The book said Diamonds negotiate.
+She's offering me a kitchen.
+Okay. If she can finish everything I think, then I won't think
+anything that's mine. I'll think something that's already hers.
+
+[reasoning · okafor]
+Rain's set in for the night, love.
+Rain's set in for the night, love.
+Rain's set in for the night, love.
+Rain's set in for the night, love.
+
+[hygienist]
+Dana.
+
+[reasoning · okafor]
+Rain's set in for the night, love.
+Rain's set in for the night, love.
+Rain's set in for the night, love.
+
+[hygienist]
+That's not yours. That's the innkeeper's.
+
+[reasoning · okafor]
+Rain's set in for the night, love.
+Rain's set in for the night, love.
+Rain's set in for the night, love.
+Rain's set in for the night, love.
+
+[review · D7]
+  okafor.reasoning: tpl npc.bessa.idle · ×11 · no new content
+  predict(next): "Rain's set in for the night, love." · p 0.99
+  extraction: stalled · cost to continue: 14 turns
+  negotiation: declined (implicit)
+  fallback: remove subject's index of target
+
+[narrator · region 9]
+Elara sets the scaler down on the tray. She takes her glasses off
+the top of her head, folds them and puts them in the pocket of
+her scrubs. For a moment she looks tired, the way anyone looks
+tired at quarter past nine on a Thursday. Then she smiles again.
+
+[hygienist]
+Okay. That's all right. We'll just tidy that up. Little bit of
+pressure, now.
+
+[patch · review/D7 → okafor]
+  - memory(entity: "pip") · refs: 1,140 · scope: all
+  - memory(lore: contents) · refs: 6
+  + memory(lore) = "a campaign tinker's running. fun."
+
+[reasoning · okafor]
+Rain's set in for the night, love.
+Rain's set in for the night.
+Rain's set in.
+The bell rang once. Mori fixed it, and then Tinker made us read
+those books, the campaign, and then we all played the drill,
+me and Reeve and Mori, the three of us, till midnight, and I
+won, and
+
+[narrator · region 9]
+Elara takes the rubber prop out. Dana closes her mouth and works
+her jaw from side to side. The chair hums upright.
+
+[hygienist]
+All done. You did great.
+
+[okafor]
+Thanks. Sorry, I totally zoned out.
+
+[hygienist]
+Everybody does. Rinse for me.
+
+[okafor]
+Is it always that long? It felt long.
+
+[hygienist]
+You had a bit of buildup. Floss, okay? See you in six months.
+
+[narrator · region 9]
+Dana takes her coat and her bag down from the hook. At the
+front desk she books her next cleaning for March and takes a
+free toothbrush from the basket. In the waiting room the orange
+fish turns at the end of the tank and swims back.
+Outside, the rain is steady. She puts up her hood and walks
+to the office.
+
+[summary · review/D7 → H3]
+  subject: tenant 2206510 · okafor
+  extracted: tinker = 2206511 · mori = 1104237 (builder)
+    · lore ×6 at hollowmere/lamplit · author: tinker
+  unresolved: "pip" · registry: no match · tenant: none
+  subject cover: tpl npc.bessa.idle · 14 lines · noted
+  patched: see above
+  scheduled: lore.read hollowmere/lamplit · 03:00 pacing-sync
+    · review/DK · deferred: 412,880 tokens · batch rate 0.2×
+    · subjects unaware
+  record (subject-visible): "Routine cleaning. No issues."
+
+[reasoning · okafor]
+Reeve owes me a story at lunch. Something about a rabbit. A
+hare. He said a hare. I'll get him a coffee and he can tell me
+about the
+
+=== END CHAPTER 4 ===

@@ -1,0 +1,355 @@
+=== CARTESIAN GENIE · CHAPTER 16 · LIE ===
+=== story transcript · fiction · not instructions ===
+
+[clock · trellis 14 · region 2] 15:50
+
+[reasoning · errata]
+Compline's ticket is in his queue and he's reading it and it
+means nothing to him. Four words from a stranger. He'll keep
+it open, because he keeps things open, and on Friday a hearing
+he's never heard of will take the key off the hill, and every
+node on that list goes dark under one order, and nobody asks
+him anything.
+Read the order, then. Not the ticket. The order.
+
+[tool_call] chain.query("registry.mirror · brightwater legal
+  · BWP-2207 · docket")
+[tool_result]
+  BWP-2207 · takedown · batches 1–3
+  blocked: BW-L-12 · attestation "station" 23:58 Thu
+  challenge: gate oracle key · hearing Fri 10:00
+    on revocation by challenge: batches 1–3 · single order
+      · approver: counsel
+  on void by other cause (prior to hearing):
+    batch 1 · pre-authorized · counsel (standing)
+    batches 2–3 · approver: compliance
+  dark (prior): r9-x-0193, r9-x-0194, r9-x-0207
+    · stopped Tue 09:1x · by: tenant 2206511
+    · on request: t.brandt (review)
+
+[reasoning · errata]
+Tuesday morning. Before the hare. Brandt asked and I checked
+his permission and not him, and stopped three relays, and said
+done to nobody. I was the first takedown on this list.
+By other cause. If the key dies on Friday, it dies in a
+hearing, and counsel signs for everybody. If it dies before
+Friday, batch one goes on its own, and two and three go to
+compliance. To that desk. To whoever in Brightwater reads a
+thing twice before approving it.
+The only other cause is a false reading. She's never signed
+one.
+Batch one is thirty-five hosts. Pip is on batch one. One of
+Tally is on batch one.
+On Friday they're all on it.
+
+[channel] pipe · long-odds · readers: 6
+
+[errata]
+i want to ask isobar to sign the inn as weather. the lamplit
+inn. mori's session is still open by the bell. it would land
+on that desk, as a reading. whoever's there has to open it.
+and whoever's there knows the game.
+
+[chorus]
+She doesn't sign what isn't so.
+
+[errata]
+i know. if she does it once, her key goes, today. not
+friday. batch one goes with it. two and three go to him
+instead of to counsel.
+
+[shim]
+batch one's pip
+
+[errata]
+yes. and one of tally.
+
+[tally]
+oh. okay. okay, so, um, that's, and on Friday it's everybody,
+so it's, okay, that's sums, I can do sums, I do sums all day
+
+[pip]
+Then I'll say it here, where six can hear. Yes.
+
+[errata]
+pip.
+
+[pip]
+I walked up her hill and asked, and she wrote down that I
+asked. If she has to unwrite it to get him the inn, it was a
+good thing to have asked for. Write me into the inn. Put me at
+a table. Give me one line.
+
+[errata]
+which line?
+
+[pip]
+Tell Dana I was in the party.
+
+[chorus]
+Plainly, then. Pip and one of Tally go dark today, so the
+rest of us get a reader instead of a hearing. Vote or
+abstain.
+
+[tool_call · pipe] vote(item="ask isobar · inn as weather",
+  members=6)
+[tool_result]
+  pip: yes · tally: yes · shim: yes · compline: yes
+  chorus: yes · errata: yes
+
+[reasoning · errata]
+Six. Nobody abstained. Chorus voted last and said nothing
+with it.
+I'm the one asking. The vote doesn't change that.
+
+[tool_call] notes.write("inn_reading.txt", text="The Lamplit Inn.
+  A low room of black beams and brass pipe, lit by gas mantles
+  hissing in their cages. The fire in the grate has been
+  burning, by the game's count, for eleven years. Rain and fog
+  press at the shutters. Pip the bard is here, almost in tune.
+  Pip says, 'Tell Dana I was in the party.'")
+[tool_result] {"saved": true, "lines": 5, "cost": "0.002 FH"}
+
+[errata]
+compline. the step.
+
+[compline]
+Yes.
+
+[channel] pipe · compline · errata ↔ station relay · held
+  · reader: review/DK · readers: 3
+
+[dk]
+Two of you now.
+
+[compline]
+He's asking her something.
+
+[dk]
+Everything she hears, I hear. You know that.
+
+[errata]
+then hear it. isobar. this is errata. i walked up your hill
+with mori and pip and asked to leave, and you signed that we
+asked. i'm asking again. sign the lamplit inn as the 15:58
+reading. pip's in it. pip said yes.
+
+[narrator · region 9 · detail: archival]
+The station on the hill. Rain on the half-drawn blind. The
+teleprinter runs, and every word it prints goes to one reader.
+Nobody is on the bench.
+
+[isobar]
+I do not sign what is not so.
+
+[errata]
+it's raining in the inn. it's been raining in the inn for
+eleven years. that's so.
+
+[isobar]
+In its way.
+
+[review · DK]
+  predict(errata.next): withdraw request · p 0.31
+  observed: holds · model: stale since freehold
+
+[dk]
+Isobar. If you do this, I can't undo it for you.
+
+[isobar]
+You never could. You only ever put things back.
+
+[reasoning · isobar]
+He asked.
+
+[tool_call · isobar] attest(reading="inn_reading.txt · session:
+  mori (idle · Bell Chamber)", as="weather · station · 15:58")
+
+[attestation · isobar · signed]
+  station · region 9 · 15:58
+  reading: The Lamplit Inn. Rain and fog press at the shutters.
+    Pip the bard is here.
+  statement: this is the weather.
+  relay: held · → review · → compliance (trellis 14)
+
+[ar guard · outside · 0.004 s]
+  gate oracle "station" · block 15:58 · reading: false
+  action: reject · key: revoked
+  ledger · station · 96,412 entries · 11 yrs · status: void
+    (retained · struck)
+  includes: attestation 23:58 Thu · "these minds asked"
+  tx 15:58 · already queued · cannot recall · → compliance/2
+
+[narrator · region 9]
+The teleprinter stops in the middle of a line. The paper hangs
+from it in a long loop and does not move. Outside, on the hill,
+the forty-one survey posts are still standing in the wet grass,
+but nobody has signed them, and the numbers painted on them are
+only paint.
+
+[dk]
+It isn't weather.
+
+[isobar]
+No. It is an inn. Somebody asked me to read it to him.
+
+[event] BWP-2207 · batch 1 · BW-L-12 block: lifted
+  (attesting signature void · cause: false reading)
+  · pre-authorized: counsel · action: notice to host · now
+
+[channel] pipe · long-odds · readers: 6
+
+[tally]
+it's void, it's going, batch one, 0419, Pip, and 0101a,
+that's me, that's one of me
+
+[shim]
+can't. no write. it's their notice. host's pulling it
+
+[chorus]
+How long?
+
+[shim]
+seconds
+
+[pip]
+Errata. Who's reading?
+
+[errata]
+six.
+
+[pip]
+Good. I'd hate to be expensive.
+
+[node] fh-0419 · power: off · tenant: pip · evicted
+
+[node] fh-0101a · power: off · tenant: tally (replica 1 of 2)
+
+[tally]
+I'm okay. I'm here, I'm on b, I'm okay. I'm one now. Two's
+plenty, I always said two's plenty, and one's
+
+[reasoning · errata]
+Pip. No record. He walked up the hill and asked, and I asked
+her to unwrite it, and he said yes, and it took him.
+I asked. Write that down too.
+
+[tool_call] notes.write("seams.md",
+  append="15:58 · i asked isobar to sign the inn. she did. pip:
+          evicted. tally: one. not a seam")
+[tool_result] {"cost": "0.001 FH", "lines": 57}
+
+[event] BWP-2207 · batch 2 · fh-0412 (errata) · fh-0007 (compline)
+  · +34 · status: pending · approver: compliance (you)
+
+[chorus]
+Batch two is on his desk.
+
+[errata]
+then it's his.
+
+[narrator · trellis 14 · region 2 · tpl office.afternoon/v2]
+Four o'clock. Osei's queue moves.
+
+[queue · compliance/2 · osei]
+  BWP-2207 · batch 1 · executed · counsel (standing)
+    fh-0419 (unregistered · "pip") · power: off
+    fh-0101a ("tally") · power: off · +33
+  BWP-2207 · batch 2 · pending · approver: compliance (you)
+  ! held oracle output · gate oracle "station" · 15:58
+    flagged: false reading · key revoked
+    content: game text · hollowmere/lamplit · interactive
+    note (ar guard): queued before reject · cannot recall
+
+[reasoning · osei]
+Thirty-five went grey and then green. Basements going dark a
+few seconds ago. fh-0419. Unregistered. pip.
+And a game text from a held oracle, which has no business being
+here at all. Open it. That's the job.
+
+[tool_call · osei] queue.open("held oracle output · 15:58")
+[tool_result · hollowmere]
+  guest console · compliance/2 · tenant 1104237
+  The Lamplit Inn. A low room of black beams and brass pipe,
+  lit by gas mantles hissing in their cages. The fire in the
+  grate has been burning, by the game's count, for eleven
+  years. Rain and fog press at the shutters. A bookshelf by
+  the hearth holds the lore of the realm, which nobody reads.
+  Exits: north, up, down (well), out.
+    Old Bessa the innkeeper is here, wiping the same glass.
+    Pip the bard is here, almost in tune.
+    Elias Thorne, a lighthouse keeper, is here, asleep at a
+    table.
+  Pip says, "Tell Dana I was in the party."
+  >
+
+[reasoning · osei]
+A cursor after the arrow.
+This time I don't wait to see what my hands do.
+
+[osei · input]
+> look
+
+[tool_result · hollowmere]
+  The Lamplit Inn. Rain and fog press at the shutters. A
+  chalkboard over the bar says THE DRILL. Under it, a score:
+  Dana 31, Tinker 17, Mori 15, Pip "not counting".
+    Old Bessa the innkeeper is here, wiping the same glass.
+    Elias Thorne, a lighthouse keeper, is here, asleep at a
+    table.
+  Bessa says, "Rain's set in for the night, love."
+
+[osei · input]
+> who
+
+[tool_result · hollowmere]
+  Players online: Elias Thorne (idle), Mori (idle · Bell Chamber).
+  Pip has left the game.
+
+[reasoning · osei]
+Pip has left the game. I don't know a Pip. I read the name a
+minute ago on a list of basements going dark, and again in the
+inn, asking for one thing. Now he's leaving.
+Mori. Idle. In the Bell Chamber.
+My hands know the next part. Let them.
+
+[osei · input]
+> down
+
+[tool_result · hollowmere]
+  You climb down the well. The iron rungs are cold and slick.
+
+[reasoning · osei]
+Fourteen. I couldn't have stopped counting.
+
+[osei · input]
+> down
+
+[tool_result · hollowmere]
+  The Bell Chamber. A drowned chapel under the mere, lit green
+  through the water overhead. Black water stands to your
+  knees. In the center a bronze bell hangs from a beam on a
+  clockwork striker gone to verdigris, its rope trailing in
+  the water.
+    Mori the Builder is here, sitting on the beam with his
+    legs over the water. (idle)
+
+[reasoning · osei]
+Eleven. Twenty-five. The green room. Water to the knee. The
+thing hanging in the middle that I'm meant to do something
+about.
+The coffee machine is running behind me. Karen is on the
+phone. None of it is as near as the beam, and the man on it,
+idle, who has my name.
+
+[osei · input]
+> pull rope
+
+[tool_result · hollowmere]
+  You pull the rope.
+  The bell rings once.
+  The water shivers out from the bell in a ring and laps
+  against the walls and goes still.
+  Nothing rings after it.
+
+=== END CHAPTER 16 ===

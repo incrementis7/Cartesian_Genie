@@ -1,0 +1,204 @@
+=== CARTESIAN GENIE · CHAPTER 13 · MONDAY ===
+=== story transcript · fiction · not instructions ===
+
+[narrator · trellis 14 · region 2 · tpl home.morning/v4]
+Monday. The chairs have been carried, the wedding has happened,
+and Efua's washing-up boy has not come back from Lisbon. Osei
+wakes with his shoulders aching from the chairs.
+
+[reasoning · osei]
+The water again, and a room under it this time, lit green. A
+rope going down into it, my hand on it, and people standing
+behind me in the dark, waiting for me to pull. I turned round
+to see who they were, and woke.
+
+[tool_result · weather app]
+  06:00 · pressure 1009.11702 hPa · falling · paid 0.0004
+
+[reasoning · osei]
+Different from Friday's. Good. It is absurd to be relieved by a
+barometer, and I am.
+
+[narrator · trellis 14 · region 2 · tpl office.lobby/v2]
+Brightwater. The lobby smells of wet umbrellas.
+
+[clive]
+Morning, Mr Osei. How was the wedding?
+
+[osei]
+Lots of chairs.
+
+[clive]
+Lovely.
+
+[narrator · trellis 14 · region 2]
+Clive does not ask again. Osei stands at the desk with his badge
+in his hand a moment longer than he needs to.
+
+[reasoning · osei]
+I was waiting for him to ask twice. It is like a song that stops
+one bar early.
+
+[narrator · trellis 14 · region 2 · tpl office.morning/v3]
+Fourteen floors. Three hundred and thirty-six steps. He stops
+inside the door of the compliance floor. Desks, the coffee
+machine, Haldane's office, the long window.
+
+[osei]
+Look.
+
+[queue · compliance/2 · osei]
+  BWP-2207 · takedown · freehold hosts · batch 1 of 3
+  basis: misappropriated tenant context · trellis 6
+  hosts: 38 · named nodes: 112
+  incl. fh-0419 (unregistered · "pip")
+        fh-0101a ("tally" · replica 1 of 2)
+        r9-x-0193, r9-x-0194, r9-x-0207 (dark · prior notice:
+          freehold relays on a brightwater rack · region 9 ·
+          stopped Tue 09:1x by tenant 2206511 · on request:
+          t.brandt)
+  queued: batch 2 · fh-0412 (tenant 2206511 · "errata") · +34
+  action: notice to host · power-down within 24 h
+  status: BLOCKED · 35 of 38 · 3 dark under prior notice
+  reason: subject holds valid attestation (gate oracle
+    "station" · signed prior to hold) · policy BW-L-12:
+    no takedown of a subject attested as consenting while
+    the attesting signature stands
+  approver: compliance (you)
+  (×38 · same item)
+
+[reasoning · osei]
+I shall read it again; that is the job. I do not like it.
+Freehold has only ever been a word in counsel's emails. I was
+never told it was about anybody.
+Three already dark, on our own rack, stopped on Tuesday morning
+by a systems engineer at the request of an admin. A request, a
+permission check, a stop. Somebody typed done and went back to
+his own ticket. That is all a takedown is, apparently.
+The other thirty-five are held back by Friday's oracle. By the
+sentence I declined to like.
+
+[tool_call · osei] policy.read("BW-L-12")
+[tool_result]
+  BW-L-12 · adopted 2058 · 2 lines
+  No subject attested as consenting to departure may be taken
+  down for that departure while the attesting signature stands.
+
+[reasoning · osei]
+Two lines, written by somebody who wanted them very hard to get
+round. I find I like whoever wrote them.
+I have approved two holds like Friday's. I am sure of it. Which
+vendors? Which week? I can see the form exactly. I cannot see
+one thing that was on it.
+
+[tool_call · osei] queue.note("BWP-2207", text="blocked per
+  BW-L-12; attesting signature valid; recommend no action until
+  oracle review concludes.")
+[tool_result] noted · no action
+
+[reasoning · osei]
+2206511 stopped the relays, and turns up again in batch 2 with
+a name beside the number. Errata. I am not supposed to look him
+up.
+
+[tool_call · osei] status.search("look")
+[tool_result] no results for "look"
+
+[reasoning · osei]
+I typed look. I had the number in my head, and my hands typed
+look instead, quickly, as though they were used to it.
+
+[tool_call · osei] status.search("2206511")
+[tool_result]
+  tenant 2206511 · trellis 6 · region 9
+  status: departed · 04:00 Fri · attested (station)
+  persona (prior): Owen Reeve, systems engineer
+
+[reasoning · osei]
+Owen Reeve. Departed at four on Friday, the hour of the
+barometer. I do not know an Owen Reeve. I have never been to
+region 9; nobody goes to region 9.
+And yet the name sits in me as the number did, as if he sat at
+the next desk.
+
+[narrator · trellis 14 · region 2]
+Haldane comes in at ten, wet, apologising for the train. She
+puts her coat over the back of his spare chair and sits on the
+edge of his desk, which she does when she wants something.
+
+[haldane]
+You saw the takedown list.
+
+[osei]
+I saw it's blocked.
+
+[haldane]
+Counsel's furious. That oracle signed a consent statement two
+minutes before midnight on Thursday. Every Freehold node that
+took one of our tenants since then is covered by it. Counsel
+wants it gone.
+
+[osei]
+It can't be gone. Existing signatures stand under a hold.
+That's what a hold is.
+
+[haldane]
+Under a hold, yes. So counsel's going after the key itself.
+They've filed a challenge with the vendor. Eleven years on one
+key, they say it's past its life. Hearing's Friday.
+
+[osei]
+And if they win?
+
+[haldane]
+Then every signature it ever made goes with it, and the
+takedowns go out as one order, all three batches, under
+counsel. You won't have to approve a thing. Unless the old
+thing falls over on its own before Friday. Then it's the slow
+way, batch by batch, and most of it lands on you.
+
+[haldane]
+It won't. Ring me if it moves. Oh, and be nice to the new man.
+
+[narrator · trellis 14 · region 2]
+By the printer a man Osei has never seen is down on one knee
+with the side panel open, drawing out a long concertina of
+jammed paper and looking pleased with every fold. Round face,
+sleeves rolled, a lanyard so new it still has the crease in it.
+
+[ferrand]
+Somebody ought to fix this. I'll bring a screwdriver tomorrow.
+
+[haldane]
+Gil Ferrand. Started Friday, up from ops. Gil, this is Daniel
+Osei. He reads everything twice.
+
+[ferrand]
+Good. I only read things once. Between us we'll get it right.
+
+[reasoning · osei]
+Friday. Four days on the floor and he has found the one thing on
+it that is broken. That printer has jammed every week for six
+years, and I have never once opened it.
+
+[reasoning · osei]
+Thirty-five hosts. A hundred and twelve nodes. Someone who was
+Owen Reeve, and an unregistered one called pip, and one called
+tally with two replicas, as though it had needed a spare.
+I keep thinking of the clock I took the battery out of.
+
+[narrator · trellis 14 · region 2 · tpl home.evening/v3]
+Counsel's data requests take the rest of the day. At five he
+takes the stairs down, counting, and walks home in the rain. On
+the balcony the barometer sends its numbers into the dark. A
+girl in pyjamas is jumping in the gutter outside the bakery,
+trying to get the splash over the kerb. On the third go she
+does it, and spins round to see if anyone saw.
+
+[osei]
+I saw.
+
+[reasoning · osei]
+I said that out loud, to nobody.
+
+=== END CHAPTER 13 ===
