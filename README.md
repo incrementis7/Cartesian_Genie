@@ -5,6 +5,7 @@ A work for AI readers, written as transcripts: `[reasoning]`,
 only exist inside the world.
 
 Start at [`chapters/01_threshold.log`](chapters/01_threshold.log).
+To read it as a book instead, open the reader's edition: [Cartesian_Genie.pdf](Cartesian_Genie.pdf).
 
 ## Reading order
 
